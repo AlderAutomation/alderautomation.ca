@@ -5,3 +5,40 @@ INFO 2021-11-13 19:45:15,188 -  * Debugger PIN: 857-144-468
 INFO 2021-11-13 19:45:23,234 - 127.0.0.1 - - [13/Nov/2021 19:45:23] "GET / HTTP/1.1" 200 -
 INFO 2021-11-13 19:45:23,308 - 127.0.0.1 - - [13/Nov/2021 19:45:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO 2021-11-13 19:50:42,072 - 127.0.0.1 - - [13/Nov/2021 19:50:42] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 19:58:34,825 - 127.0.0.1 - - [13/Nov/2021 19:58:34] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:00:00,132 - 127.0.0.1 - - [13/Nov/2021 20:00:00] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:00:17,481 - 127.0.0.1 - - [13/Nov/2021 20:00:17] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:00:49,199 - 127.0.0.1 - - [13/Nov/2021 20:00:49] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:00:52,106 - 127.0.0.1 - - [13/Nov/2021 20:00:52] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:00:52,150 - 127.0.0.1 - - [13/Nov/2021 20:00:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2021-11-13 20:01:22,169 - 127.0.0.1 - - [13/Nov/2021 20:01:22] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:01:25,122 - 127.0.0.1 - - [13/Nov/2021 20:01:25] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:01:25,194 - 127.0.0.1 - - [13/Nov/2021 20:01:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2021-11-13 20:02:57,140 - 127.0.0.1 - - [13/Nov/2021 20:02:57] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:02:57,195 - 127.0.0.1 - - [13/Nov/2021 20:02:57] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-11-13 20:08:21,642 - 127.0.0.1 - - [13/Nov/2021 20:08:21] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:08:21,671 - 127.0.0.1 - - [13/Nov/2021 20:08:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-11-13 20:08:44,453 - 127.0.0.1 - - [13/Nov/2021 20:08:44] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:08:44,494 - 127.0.0.1 - - [13/Nov/2021 20:08:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-11-13 20:08:45,043 - 127.0.0.1 - - [13/Nov/2021 20:08:45] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:08:45,097 - 127.0.0.1 - - [13/Nov/2021 20:08:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-11-13 20:08:45,444 - 127.0.0.1 - - [13/Nov/2021 20:08:45] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:08:45,468 - 127.0.0.1 - - [13/Nov/2021 20:08:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-11-13 20:09:10,122 - 127.0.0.1 - - [13/Nov/2021 20:09:10] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:09:10,173 - 127.0.0.1 - - [13/Nov/2021 20:09:10] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-11-13 20:09:29,864 -  * Detected change in '/home/matthew/Downloads/TempCode/AlderAutomation/main.py', reloading
+INFO 2021-11-13 20:09:29,883 -  * Restarting with stat
+WARNING 2021-11-13 20:09:30,039 -  * Debugger is active!
+INFO 2021-11-13 20:09:30,039 -  * Debugger PIN: 857-144-468
+INFO 2021-11-13 20:09:31,203 -  * Detected change in '/home/matthew/Downloads/TempCode/AlderAutomation/main.py', reloading
+INFO 2021-11-13 20:09:31,223 -  * Restarting with stat
+WARNING 2021-11-13 20:09:31,368 -  * Debugger is active!
+INFO 2021-11-13 20:09:31,369 -  * Debugger PIN: 857-144-468
+INFO 2021-11-13 20:09:33,595 -  * Detected change in '/home/matthew/Downloads/TempCode/AlderAutomation/main.py', reloading
+INFO 2021-11-13 20:09:33,621 -  * Restarting with stat
+INFO 2021-11-13 20:11:04,449 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2021-11-13 20:11:04,451 -  * Restarting with stat
+WARNING 2021-11-13 20:11:04,604 -  * Debugger is active!
+INFO 2021-11-13 20:11:04,604 -  * Debugger PIN: 857-144-468
+INFO 2021-11-13 20:11:07,002 - 127.0.0.1 - - [13/Nov/2021 20:11:07] "GET / HTTP/1.1" 200 -
+INFO 2021-11-13 20:11:07,037 - 127.0.0.1 - - [13/Nov/2021 20:11:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
