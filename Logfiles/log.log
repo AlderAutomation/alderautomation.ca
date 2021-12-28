@@ -281,3 +281,197 @@ INFO 2021-12-26 22:26:43,050 - 127.0.0.1 - - [26/Dec/2021 22:26:43] "GET / HTTP/
 INFO 2021-12-26 22:26:43,097 - 127.0.0.1 - - [26/Dec/2021 22:26:43] "GET /static/css/main.css HTTP/1.1" 200 -
 INFO 2021-12-26 22:26:52,990 - 127.0.0.1 - - [26/Dec/2021 22:26:52] "GET / HTTP/1.1" 200 -
 INFO 2021-12-26 22:26:53,037 - 127.0.0.1 - - [26/Dec/2021 22:26:53] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-26 22:34:29,631 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2021-12-26 22:34:29,634 -  * Restarting with stat
+WARNING 2021-12-26 22:34:29,903 -  * Debugger is active!
+INFO 2021-12-26 22:34:29,903 -  * Debugger PIN: 629-929-840
+INFO 2021-12-26 22:34:35,398 - 127.0.0.1 - - [26/Dec/2021 22:34:35] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-26 22:35:32,793 - 127.0.0.1 - - [26/Dec/2021 22:35:32] "GET /projects HTTP/1.1" 200 -
+INFO 2021-12-26 22:35:32,852 - 127.0.0.1 - - [26/Dec/2021 22:35:32] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-26 22:35:34,884 - 127.0.0.1 - - [26/Dec/2021 22:35:34] "GET / HTTP/1.1" 200 -
+INFO 2021-12-26 22:35:34,932 - 127.0.0.1 - - [26/Dec/2021 22:35:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-26 22:35:37,332 - 127.0.0.1 - - [26/Dec/2021 22:35:37] "GET /projects HTTP/1.1" 200 -
+INFO 2021-12-26 22:35:37,381 - 127.0.0.1 - - [26/Dec/2021 22:35:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-26 22:36:11,316 - 127.0.0.1 - - [26/Dec/2021 22:36:11] "GET / HTTP/1.1" 200 -
+INFO 2021-12-26 22:36:11,365 - 127.0.0.1 - - [26/Dec/2021 22:36:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 20:27:18,801 - 127.0.0.1 - - [27/Dec/2021 20:27:18] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 20:27:18,853 - 127.0.0.1 - - [27/Dec/2021 20:27:18] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 20:27:18,867 - 127.0.0.1 - - [27/Dec/2021 20:27:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2021-12-27 20:31:07,814 - 127.0.0.1 - - [27/Dec/2021 20:31:07] "GET /projects HTTP/1.1" 200 -
+INFO 2021-12-27 20:31:07,884 - 127.0.0.1 - - [27/Dec/2021 20:31:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 20:31:09,351 - 127.0.0.1 - - [27/Dec/2021 20:31:09] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 20:31:09,391 - 127.0.0.1 - - [27/Dec/2021 20:31:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 20:31:11,173 - 127.0.0.1 - - [27/Dec/2021 20:31:11] "GET /projects HTTP/1.1" 200 -
+INFO 2021-12-27 20:31:11,223 - 127.0.0.1 - - [27/Dec/2021 20:31:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 20:31:13,137 - 127.0.0.1 - - [27/Dec/2021 20:31:13] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 20:31:13,178 - 127.0.0.1 - - [27/Dec/2021 20:31:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 20:31:14,805 - 127.0.0.1 - - [27/Dec/2021 20:31:14] "GET /projects HTTP/1.1" 200 -
+INFO 2021-12-27 20:31:14,866 - 127.0.0.1 - - [27/Dec/2021 20:31:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:05:25,549 - 127.0.0.1 - - [27/Dec/2021 21:05:25] "GET /projects HTTP/1.1" 200 -
+INFO 2021-12-27 21:05:25,584 - 127.0.0.1 - - [27/Dec/2021 21:05:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:05:33,266 - 127.0.0.1 - - [27/Dec/2021 21:05:33] "GET /projects HTTP/1.1" 200 -
+INFO 2021-12-27 21:05:33,309 - 127.0.0.1 - - [27/Dec/2021 21:05:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:06:46,942 - 127.0.0.1 - - [27/Dec/2021 21:06:46] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:06:47,000 - 127.0.0.1 - - [27/Dec/2021 21:06:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:07:02,664 - 127.0.0.1 - - [27/Dec/2021 21:07:02] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:07:02,690 - 127.0.0.1 - - [27/Dec/2021 21:07:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:09:52,270 - 127.0.0.1 - - [27/Dec/2021 21:09:52] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:09:52,324 - 127.0.0.1 - - [27/Dec/2021 21:09:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:11:37,623 - 127.0.0.1 - - [27/Dec/2021 21:11:37] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:11:37,654 - 127.0.0.1 - - [27/Dec/2021 21:11:37] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:11:57,233 - 127.0.0.1 - - [27/Dec/2021 21:11:57] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:11:57,276 - 127.0.0.1 - - [27/Dec/2021 21:11:57] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:12:25,792 - 127.0.0.1 - - [27/Dec/2021 21:12:25] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:12:25,827 - 127.0.0.1 - - [27/Dec/2021 21:12:25] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:12:34,028 - 127.0.0.1 - - [27/Dec/2021 21:12:34] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:12:34,077 - 127.0.0.1 - - [27/Dec/2021 21:12:34] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:12:57,070 - 127.0.0.1 - - [27/Dec/2021 21:12:57] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:12:57,143 - 127.0.0.1 - - [27/Dec/2021 21:12:57] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:19:37,513 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2021-12-27 21:19:37,515 -  * Restarting with stat
+WARNING 2021-12-27 21:19:37,688 -  * Debugger is active!
+INFO 2021-12-27 21:19:37,688 -  * Debugger PIN: 629-929-840
+INFO 2021-12-27 21:19:40,983 - 127.0.0.1 - - [27/Dec/2021 21:19:40] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:19:41,026 - 127.0.0.1 - - [27/Dec/2021 21:19:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:19:41,080 - 127.0.0.1 - - [27/Dec/2021 21:19:41] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:20:26,527 - 127.0.0.1 - - [27/Dec/2021 21:20:26] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:20:26,555 - 127.0.0.1 - - [27/Dec/2021 21:20:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:20:26,588 - 127.0.0.1 - - [27/Dec/2021 21:20:26] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:21:01,733 - 127.0.0.1 - - [27/Dec/2021 21:21:01] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:21:01,759 - 127.0.0.1 - - [27/Dec/2021 21:21:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:23:22,232 - 127.0.0.1 - - [27/Dec/2021 21:23:22] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:23:22,275 - 127.0.0.1 - - [27/Dec/2021 21:23:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:23:44,092 - 127.0.0.1 - - [27/Dec/2021 21:23:44] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:23:44,137 - 127.0.0.1 - - [27/Dec/2021 21:23:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:24:36,552 - 127.0.0.1 - - [27/Dec/2021 21:24:36] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:24:36,586 - 127.0.0.1 - - [27/Dec/2021 21:24:36] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:24:50,212 - 127.0.0.1 - - [27/Dec/2021 21:24:50] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:24:50,259 - 127.0.0.1 - - [27/Dec/2021 21:24:50] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:25:16,803 - 127.0.0.1 - - [27/Dec/2021 21:25:16] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:25:16,830 - 127.0.0.1 - - [27/Dec/2021 21:25:16] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:25:38,786 - 127.0.0.1 - - [27/Dec/2021 21:25:38] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:25:38,819 - 127.0.0.1 - - [27/Dec/2021 21:25:38] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:26:41,621 - 127.0.0.1 - - [27/Dec/2021 21:26:41] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:26:41,655 - 127.0.0.1 - - [27/Dec/2021 21:26:41] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:27:45,165 - 127.0.0.1 - - [27/Dec/2021 21:27:45] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:27:45,197 - 127.0.0.1 - - [27/Dec/2021 21:27:45] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:30:50,964 - 127.0.0.1 - - [27/Dec/2021 21:30:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO 2021-12-27 21:30:51,002 - 127.0.0.1 - - [27/Dec/2021 21:30:51] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:30:51,004 - 127.0.0.1 - - [27/Dec/2021 21:30:51] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2021-12-27 21:30:51,033 - 127.0.0.1 - - [27/Dec/2021 21:30:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:30:59,584 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2021-12-27 21:30:59,618 -  * Restarting with stat
+WARNING 2021-12-27 21:30:59,943 -  * Debugger is active!
+INFO 2021-12-27 21:30:59,944 -  * Debugger PIN: 629-929-840
+INFO 2021-12-27 21:31:03,553 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2021-12-27 21:31:03,582 -  * Restarting with stat
+INFO 2021-12-27 21:32:09,695 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2021-12-27 21:32:09,697 -  * Restarting with stat
+WARNING 2021-12-27 21:32:09,880 -  * Debugger is active!
+INFO 2021-12-27 21:32:09,880 -  * Debugger PIN: 629-929-840
+INFO 2021-12-27 21:32:12,256 - 127.0.0.1 - - [27/Dec/2021 21:32:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO 2021-12-27 21:32:12,300 - 127.0.0.1 - - [27/Dec/2021 21:32:12] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:12,301 - 127.0.0.1 - - [27/Dec/2021 21:32:12] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:12,333 - 127.0.0.1 - - [27/Dec/2021 21:32:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:18,300 - 127.0.0.1 - - [27/Dec/2021 21:32:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO 2021-12-27 21:32:18,334 - 127.0.0.1 - - [27/Dec/2021 21:32:18] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:18,335 - 127.0.0.1 - - [27/Dec/2021 21:32:18] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:18,349 - 127.0.0.1 - - [27/Dec/2021 21:32:18] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:21,881 - 127.0.0.1 - - [27/Dec/2021 21:32:21] "[35m[1mGET /projects HTTP/1.1[0m" 500 -
+INFO 2021-12-27 21:32:21,921 - 127.0.0.1 - - [27/Dec/2021 21:32:21] "GET /projects?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:21,921 - 127.0.0.1 - - [27/Dec/2021 21:32:21] "GET /projects?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:21,940 - 127.0.0.1 - - [27/Dec/2021 21:32:21] "GET /projects?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:45,780 - 127.0.0.1 - - [27/Dec/2021 21:32:45] "[35m[1mGET /projects HTTP/1.1[0m" 500 -
+INFO 2021-12-27 21:32:45,817 - 127.0.0.1 - - [27/Dec/2021 21:32:45] "GET /projects?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:45,817 - 127.0.0.1 - - [27/Dec/2021 21:32:45] "GET /projects?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:32:45,833 - 127.0.0.1 - - [27/Dec/2021 21:32:45] "GET /projects?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:05,372 - 127.0.0.1 - - [27/Dec/2021 21:33:05] "[35m[1mGET /projects HTTP/1.1[0m" 500 -
+INFO 2021-12-27 21:33:05,408 - 127.0.0.1 - - [27/Dec/2021 21:33:05] "GET /projects?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:05,408 - 127.0.0.1 - - [27/Dec/2021 21:33:05] "GET /projects?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:05,452 - 127.0.0.1 - - [27/Dec/2021 21:33:05] "GET /projects?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:19,249 - 127.0.0.1 - - [27/Dec/2021 21:33:19] "GET /projects HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:19,290 - 127.0.0.1 - - [27/Dec/2021 21:33:19] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:22,241 - 127.0.0.1 - - [27/Dec/2021 21:33:22] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:22,297 - 127.0.0.1 - - [27/Dec/2021 21:33:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:23,846 - 127.0.0.1 - - [27/Dec/2021 21:33:23] "GET /projects HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:23,885 - 127.0.0.1 - - [27/Dec/2021 21:33:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:33:25,191 - 127.0.0.1 - - [27/Dec/2021 21:33:25] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:33,774 - 127.0.0.1 - - [27/Dec/2021 21:33:33] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:47,245 - 127.0.0.1 - - [27/Dec/2021 21:33:47] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:33:47,271 - 127.0.0.1 - - [27/Dec/2021 21:33:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:34:52,557 - 127.0.0.1 - - [27/Dec/2021 21:34:52] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:34:52,588 - 127.0.0.1 - - [27/Dec/2021 21:34:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:35:36,674 - 127.0.0.1 - - [27/Dec/2021 21:35:36] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:35:36,709 - 127.0.0.1 - - [27/Dec/2021 21:35:36] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:36:35,293 - 127.0.0.1 - - [27/Dec/2021 21:36:35] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:36:35,353 - 127.0.0.1 - - [27/Dec/2021 21:36:35] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:37:10,054 - 127.0.0.1 - - [27/Dec/2021 21:37:10] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:37:10,101 - 127.0.0.1 - - [27/Dec/2021 21:37:10] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:37:44,886 - 127.0.0.1 - - [27/Dec/2021 21:37:44] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:37:44,912 - 127.0.0.1 - - [27/Dec/2021 21:37:44] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:40:16,417 - 127.0.0.1 - - [27/Dec/2021 21:40:16] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:40:16,452 - 127.0.0.1 - - [27/Dec/2021 21:40:16] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:40:16,831 - 127.0.0.1 - - [27/Dec/2021 21:40:16] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:41:17,692 - 127.0.0.1 - - [27/Dec/2021 21:41:17] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:41:17,739 - 127.0.0.1 - - [27/Dec/2021 21:41:17] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:41:41,972 - 127.0.0.1 - - [27/Dec/2021 21:41:41] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 21:41:42,001 - 127.0.0.1 - - [27/Dec/2021 21:41:42] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:47:28,859 - 127.0.0.1 - - [27/Dec/2021 21:47:28] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:47:28,926 - 127.0.0.1 - - [27/Dec/2021 21:47:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:49:14,564 - 127.0.0.1 - - [27/Dec/2021 21:49:14] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:49:14,601 - 127.0.0.1 - - [27/Dec/2021 21:49:14] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:49:29,710 - 127.0.0.1 - - [27/Dec/2021 21:49:29] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:49:29,758 - 127.0.0.1 - - [27/Dec/2021 21:49:29] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:49:31,524 - 127.0.0.1 - - [27/Dec/2021 21:49:31] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:49:31,566 - 127.0.0.1 - - [27/Dec/2021 21:49:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:49:32,640 - 127.0.0.1 - - [27/Dec/2021 21:49:32] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:50:11,942 - 127.0.0.1 - - [27/Dec/2021 21:50:11] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:50:11,976 - 127.0.0.1 - - [27/Dec/2021 21:50:11] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:50:55,931 - 127.0.0.1 - - [27/Dec/2021 21:50:55] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:50:55,967 - 127.0.0.1 - - [27/Dec/2021 21:50:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:51:19,640 - 127.0.0.1 - - [27/Dec/2021 21:51:19] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:51:19,687 - 127.0.0.1 - - [27/Dec/2021 21:51:19] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:51:20,774 - 127.0.0.1 - - [27/Dec/2021 21:51:20] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:52:25,572 - 127.0.0.1 - - [27/Dec/2021 21:52:25] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:52:25,621 - 127.0.0.1 - - [27/Dec/2021 21:52:25] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:52:26,945 - 127.0.0.1 - - [27/Dec/2021 21:52:26] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:53:13,490 - 127.0.0.1 - - [27/Dec/2021 21:53:13] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:53:13,515 - 127.0.0.1 - - [27/Dec/2021 21:53:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:53:14,151 - 127.0.0.1 - - [27/Dec/2021 21:53:14] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:53:14,178 - 127.0.0.1 - - [27/Dec/2021 21:53:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:53:15,464 - 127.0.0.1 - - [27/Dec/2021 21:53:15] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:53:15,499 - 127.0.0.1 - - [27/Dec/2021 21:53:15] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 21:53:16,735 - 127.0.0.1 - - [27/Dec/2021 21:53:16] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2021-12-27 21:53:49,125 - 127.0.0.1 - - [27/Dec/2021 21:53:49] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:53:49,161 - 127.0.0.1 - - [27/Dec/2021 21:53:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 21:55:38,121 - 127.0.0.1 - - [27/Dec/2021 21:55:38] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 21:55:38,151 - 127.0.0.1 - - [27/Dec/2021 21:55:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 22:02:22,653 - 127.0.0.1 - - [27/Dec/2021 22:02:22] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 22:02:22,697 - 127.0.0.1 - - [27/Dec/2021 22:02:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 22:02:40,781 - 127.0.0.1 - - [27/Dec/2021 22:02:40] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 22:02:40,808 - 127.0.0.1 - - [27/Dec/2021 22:02:40] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 22:02:41,762 - 127.0.0.1 - - [27/Dec/2021 22:02:41] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 22:02:41,794 - 127.0.0.1 - - [27/Dec/2021 22:02:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 22:02:43,244 - 127.0.0.1 - - [27/Dec/2021 22:02:43] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 22:02:43,275 - 127.0.0.1 - - [27/Dec/2021 22:02:43] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 22:02:44,535 - 127.0.0.1 - - [27/Dec/2021 22:02:44] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2021-12-27 22:02:51,214 - 127.0.0.1 - - [27/Dec/2021 22:02:51] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 22:02:51,246 - 127.0.0.1 - - [27/Dec/2021 22:02:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 22:03:45,416 - 127.0.0.1 - - [27/Dec/2021 22:03:45] "[35m[1mGET /contact HTTP/1.1[0m" 500 -
+INFO 2021-12-27 22:03:45,450 - 127.0.0.1 - - [27/Dec/2021 22:03:45] "GET /contact?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2021-12-27 22:03:45,450 - 127.0.0.1 - - [27/Dec/2021 22:03:45] "GET /contact?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2021-12-27 22:03:45,478 - 127.0.0.1 - - [27/Dec/2021 22:03:45] "GET /contact?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2021-12-27 22:04:06,333 - 127.0.0.1 - - [27/Dec/2021 22:04:06] "[35m[1mGET /contact HTTP/1.1[0m" 500 -
+INFO 2021-12-27 22:04:06,374 - 127.0.0.1 - - [27/Dec/2021 22:04:06] "GET /contact?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2021-12-27 22:04:06,375 - 127.0.0.1 - - [27/Dec/2021 22:04:06] "GET /contact?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2021-12-27 22:04:06,400 - 127.0.0.1 - - [27/Dec/2021 22:04:06] "GET /contact?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2021-12-27 22:04:20,372 - 127.0.0.1 - - [27/Dec/2021 22:04:20] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 22:04:20,428 - 127.0.0.1 - - [27/Dec/2021 22:04:20] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2021-12-27 22:04:51,580 - 127.0.0.1 - - [27/Dec/2021 22:04:51] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 22:04:51,621 - 127.0.0.1 - - [27/Dec/2021 22:04:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 22:04:52,895 - 127.0.0.1 - - [27/Dec/2021 22:04:52] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 22:04:52,930 - 127.0.0.1 - - [27/Dec/2021 22:04:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 22:05:30,470 - 127.0.0.1 - - [27/Dec/2021 22:05:30] "GET /contact HTTP/1.1" 200 -
+INFO 2021-12-27 22:05:30,502 - 127.0.0.1 - - [27/Dec/2021 22:05:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-27 22:05:58,039 - 127.0.0.1 - - [27/Dec/2021 22:05:58] "GET / HTTP/1.1" 200 -
+INFO 2021-12-27 22:05:58,114 - 127.0.0.1 - - [27/Dec/2021 22:05:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

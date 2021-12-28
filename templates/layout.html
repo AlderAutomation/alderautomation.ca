@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel ="stylesheet" href="{{ url_for('static', filename='css/main.css' )}}">
+        <link rel="shortcut icon" href="../static/pics/AlderLogoBW.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/bd96cffda5.js" crossorigin="anonymous"></script>
+
         <title>Alder Automation</title>
     </head>
 <body>
@@ -16,8 +19,9 @@
     <!-- Sider Bar Nav -->
     <div class="sidebar">
         <ul>
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('projects') }}">Project</a></li>
+            <li><a href="{{ url_for('home') }}">About</a></li>
+            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact</a></li>
         </ul>
     </div>
     <main>
@@ -31,10 +35,12 @@
     <!-- Footer -->
     <footer>
         <ul class="links">
-            <li><a href="https://github.com/AlderAutomation" target="_blank">Github</a></li>
-            <li><a href="https://twitter.com/AlderAutomation" target="_blank">Twitter</a></li>
-            <li><a href="https://www.facebook.com/AutoMatthew/" target="_blank">Facebook</a></li>
-            <li><a href="https://www.youtube.com/channel/UCO4GDb-HpSN5MWBbreAVzAA" target="_blank">Youtube</a></li>
+            <li><a href="mailto:info@alderautomation.ca" target="_blank"><i class="far fa-envelope"></i></a></li>
+            <li><a href="https://github.com/AlderAutomation" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://twitter.com/AlderAutomation" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/AutoMatthew/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCO4GDb-HpSN5MWBbreAVzAA" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <p>@2021 AlderAutomation proudly created by Matthew Heltman</p>
         </ul>
     </footer>
 </body>
