@@ -22,7 +22,7 @@ header {
     top: 200px;
     transition: 0.4s;
     width: 100px;
-    height: 100px;
+    height: 200px;
     margin-top: auto;
     margin-bottom: auto;
     padding-right: 20px;
@@ -41,16 +41,21 @@ header {
 }
 
 .container {
-    padding-top: 30px;
-    float: right;
-    width: 85%;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
     height: 100%;
+    text-align: center;
+}
+
+.container ul li {
+    list-style: none;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #00AD7C;
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -61,6 +66,7 @@ footer {
     list-style: none;
     display: inline-flex;
     justify-content: center;
+    align-items: center;
 }
 
 .links li {

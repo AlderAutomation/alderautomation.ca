@@ -5,24 +5,89 @@
         {% extends "layout.html" %}
         {% block content %}
 
-        <p>Repetive tasks got you feeling run down? Why not automate them.</p>
-        <br>
-        <p>Manually checking status of systems?  Why not have those systems notify you instead!</p>
-        <br>
-        <p>At Alder Automation we can save you hundreds of hours of manual labour allowing you to free up your time for the things that you want to do. <br> 
-        Contact us today so we can help you take back your life!  </p>
-        <br>
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
-        <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, blanditiis, <br> sit iusto saepe sequi illum et voluptatem repellendus ratione <br> accusantium molestiae consectetur voluptatibus ea mollitia esse <br>  temporibus id eius!
+
+        <div class="about">
+            <h2>About Me</h2><br>
+            
+            <p> I am a new software engineer making the change from hobby to career. I primarily work in Python but have worked in many other languages such as PHP, C++, and Java. I can do front end UI/UX but prefer working on the backend systems that keep everything running. Can work with Windows, Linux, Android, and even some game development. 
+            </p>
+            <br>
+            <p>I also like to play around with Godot game engine as well as pixel art. I would one day like to work on a RPG reminiscent of such classics as Final Fantasy, Chrono Trigger, or Dragon Quest. </p>
+
+            <br>
+            <br>
+        </div>
+
+
+        <div class="projects">
+            <h2>Projects</h2>
+            <br>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <br>
+            <br>
+        </div>
+
+        
+        <div class="skills">
+            <h2>Skills</h2>
+            <br>
+            <ul>
+                <li><h3>Languages</h3></li>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>C++</li>
+                        <li>Android Java</li>
+                        <li>bash & Powershell</li>
+                        <li>HTML & CSS</li>
+                        <li>Godot game engine </li>
+                    </ul>
+                    <br>
+                    <br>
+
+                <li><h3>Version Control</h3></li>
+                    <br>
+                    <ul>
+                        <li>Git</li>
+                        <li>Github</li>
+                        <li>Gitlab</li>
+                    </ul>
+                    <br>
+                    <br>
+
+                <li><h3>Project Management</h3></li>
+                    <br>
+                    <ul>
+                        <li>Asana</li>
+                        <li>Trello</li>
+                    </ul>
+            </ul>
+            <br>
+            <br>
+        </div>
+
+
+        <div class="contact">
+            <h2>Contact</h2>
+            <br>
+            <form action="">
+                <label for="name">Your Name: </label>
+                <input type="text" id="name" name="name">
+                <label for="emial">Your Email: </label>
+                <input type="email" name="email" id="email">
+                <label for="message">Your Message: </label>
+                <input type="text" name="message" id="message">
+            </form>
+            <br>
+            <br>
+        </div>
+
 
         {% endblock %}
     </body>
