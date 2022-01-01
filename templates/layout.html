@@ -7,7 +7,9 @@
         <link rel ="stylesheet" href="{{ url_for('static', filename='css/main.css' )}}">
         <link rel="shortcut icon" href="../static/pics/AlderLogoBW.png" type="image/x-icon">
         <script src="https://kit.fontawesome.com/bd96cffda5.js" crossorigin="anonymous"></script>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
         <title>Alder Automation</title>
     </head>
 <body>
@@ -15,25 +17,165 @@
         <h1>Alder Automation</h1>
         <h4>Software Automation. Android, Software, & Web Development. </h4>
     </header>
+    <a class="Gotolink" name="aboutme"></a><br>
+
 
     <!-- Sider Bar Nav -->
     <div class="sidebar">
         <ul>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Skills</li>
-            <li>Contact</li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Let's Chat</a></li>
         </ul>
     </div>
+
     <main>
         <div class="container">
-          {% block content %}
-          {% endblock %}
+            <div class="about">
+                <h2>About Me</h2><br>
+                
+                <p> I am a new software engineer making the change from hobby to career. I primarily work in Python but have worked in many other languages such as PHP, C++, and Java. I can do front end UI/UX but prefer working on the backend systems that keep everything running. Can work with Windows, Linux, Android, and even some game development. 
+                </p>
+                <br>
+                <p>I also like to play around with Godot game engine as well as pixel art. I would one day like to work on a RPG reminiscent of such classics as Final Fantasy, Chrono Trigger, or Dragon Quest. </p>
+                <br>
+                <p>Currently work in an IT roll where I have used my programming skills to automate as much of our jobs as I can. Have also made an Android app to scan and email license keys from computers and software for digital record  keeping. (Link to that in the Projects section).  We use a few limited feature web services so I do a lot of web scraping for user management and data collection for those services. </p>
+
+                <br>
+                <br>
+            </div>
+            <a class="Gotolink" name="projects"></a><br>
+
+            <div class="projects">
+                <h2>Projects</h2>
+                <br>
+                <div class="grid-container">
+                    <div class="grid1">
+                        <ul>
+                            <li>
+                                <h4>CameraToText</h4><br>
+                                <img src="../static/pics/CameraToText.png" alt="CameraToEmail" width="250px">
+                                <br>
+
+                                <a href="">Video</a>
+                                <a href="https://github.com/AlderAutomation/CameraToEmail">Github</a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="grid2">
+                        <ul>
+                            <li>
+                                <h4>TeaCozy Website</h4><br>
+                                <img src="../static/pics/TeaCozy.png" alt="TeaCozy Website" width="250px">
+                                <br>
+
+                                <a href="../static/TeaProject/index.html" target="_blank">Link</a>
+                                <a href="">Github</a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="grid3">
+                        <ul>
+                            <li>
+                                <img src="" alt="TicTacToe">
+                                <br>
+
+                                <a href="">Video</a>
+                                <a href="">Github</a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="grid4">
+                        <ul>
+                            <li>
+                                <img src="" alt="CameraToEmail">
+                                <br>
+
+                                <a href="">Video</a>
+                                <a href="https://github.com/AlderAutomation/CameraToEmail">Github</a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div> -->
+                </div>
+                <br>
+                <br>
+            </div>
+
+            <div class="skills">
+                <a class="Gotolink" name="skills"></a><br>
+                <h2>Skills</h2>
+                <br>
+                <ul>
+                    <li><h3>Programming Languages</h3></li>
+                        <ul>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>PHP</li>
+                            <li>C++</li>
+                            <li>Android Java</li>
+                            <li>bash & Powershell</li>
+                            <li>HTML & CSS</li>
+                            <li>Godot game engine </li>
+                        </ul>
+                        <br>
+                        <br>
+
+                    <li><h3>Version Control</h3></li>
+                        <br>
+                        <ul>
+                            <li>Git</li>
+                            <li>Github</li>
+                            <li>Gitlab</li>
+                        </ul>
+                        <br>
+                        <br>
+
+                    <li><h3>Project Management</h3></li>
+                        <br>
+                        <ul>
+                            <li>Asana</li>
+                            <li>Trello</li>
+                        </ul>
+                </ul>
+                <br>
+                <br>
+            </div>
+
+
+            <div class="contact">
+                <a name="contact">
+                <h2>Let's Chat</h2>
+                <br>
+                <form class="form" action="">
+                    <label for="name">Your Name: </label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Your Email: </label>
+                    <input type="email" name="email" id="email"><br>
+                    <label for="subject">Subject: </label>
+                    <input type="text" name="subject" id="subject"><br>
+                    <label for="message">Your Message: </label><br>
+                    <textarea name="message" id="message" rows="6"></textarea><br>
+                </form>
+                <br>
+                <br>
+            </div>
         </div>
     </main>
 
-
-    <!-- Footer -->
+<!-- Footer -->
     <footer>
         <ul class="links">
             <li><a href="mailto:info@alderautomation.ca" target="_blank"><img src="../static/pics/EmailIcon.png" alt="Email Me"></a></li>

@@ -2,6 +2,7 @@
     /* border: 1px solid red; */
     padding: 0px;
     margin: 0px;
+    font-family: 'Oxygen', sans-serif;
 }
 
 header {
@@ -13,6 +14,7 @@ header {
     padding-bottom: 20px;
     border-bottom: 1px solid black;
     background-color: #00AD7C;
+    z-index: 3;
 }
 
 .sidebar {
@@ -41,7 +43,9 @@ header {
 }
 
 .container {
+    position: relative;
     margin-top: 150px;
+    margin-bottom: 200px;
     margin-right: auto;
     margin-left: auto;
     width: 70%;
@@ -77,8 +81,37 @@ footer {
 
 .grid-container {
     display: inline-grid;
-    grid-gap: 10px;
-    grid-template-columns: 200px 200px;
+    grid-gap: 50px;
+    grid-template-columns: 250px 250px;
     margin-bottom: 20px;
 }
 
+.Gotolink {
+    margin-top: 150px;
+}
+
+.contact {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding-top: 15px;
+}
+
+.form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form textarea {
+    margin-top: 10px;
+    width: 100%;
+}

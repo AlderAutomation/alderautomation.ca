@@ -1,0 +1,150 @@
+* {
+    /* border: solid 1px red; */
+    margin: 0;
+    padding: 0;
+    font-family: "Helvatica";
+    /* font-size: 22px; */
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    border-bottom: solid 1px seashell;
+}
+
+body {
+    width: 100%
+}
+
+.logo { 
+    margin-left: 10px;
+    height: 50px;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li { 
+    display: inline;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    justify-content: center;
+}
+
+.mission img {
+    height: 700px;
+    top: 70px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    float: left;
+    width: 1050px;
+    height: 75px;
+    font-weight: 900;
+    justify-content: space-between;
+}
+
+.h2month {
+    margin-top: 170px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h4month {
+    margin-top: 10px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.month {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.month img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.month h4 {
+    width: 300px;
+    height: 22px;
+    margin: 10px;
+}
+
+.locations {
+    margin-top: 40px;
+    width: 1200px;
+    height: 500px;
+    background-image: url("./img-locations-background.webp");
+    /* background-size: auto 800px; */
+    background-position: top;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#location {
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+  
+}
+
+.card {
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.town {
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.contacts {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#footer h5 {
+    text-align: left;
+    margin-left: 20px;
+}
