@@ -59,6 +59,7 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
+    background-color: white;
 }
 
 .links {
@@ -73,3 +74,11 @@ footer {
     padding-right: 10px;
     color: antiquewhite;
 }
+
+.grid-container {
+    display: inline-grid;
+    grid-gap: 10px;
+    grid-template-columns: 200px 200px;
+    margin-bottom: 20px;
+}
+
