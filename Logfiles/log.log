@@ -1967,3 +1967,15 @@ INFO 2021-12-31 21:25:08,940 - 127.0.0.1 - - [31/Dec/2021 21:25:08] "[36mGET /s
 INFO 2021-12-31 21:25:08,941 - 127.0.0.1 - - [31/Dec/2021 21:25:08] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
 INFO 2021-12-31 21:25:08,941 - 127.0.0.1 - - [31/Dec/2021 21:25:08] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
 INFO 2021-12-31 21:25:08,944 - 127.0.0.1 - - [31/Dec/2021 21:25:08] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2021-12-31 21:28:42,120 - 127.0.0.1 - - [31/Dec/2021 21:28:42] "GET /?name=&email=&subject=&message= HTTP/1.1" 200 -
+INFO 2021-12-31 21:28:42,193 - 127.0.0.1 - - [31/Dec/2021 21:28:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2021-12-31 21:28:43,000 - 127.0.0.1 - - [31/Dec/2021 21:28:43] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2021-12-31 21:28:43,002 - 127.0.0.1 - - [31/Dec/2021 21:28:43] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2021-12-31 21:28:43,002 - 127.0.0.1 - - [31/Dec/2021 21:28:43] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2021-12-31 21:28:43,002 - 127.0.0.1 - - [31/Dec/2021 21:28:43] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2021-12-31 21:28:43,003 - 127.0.0.1 - - [31/Dec/2021 21:28:43] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2021-12-31 21:28:43,003 - 127.0.0.1 - - [31/Dec/2021 21:28:43] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2021-12-31 21:28:43,007 - 127.0.0.1 - - [31/Dec/2021 21:28:43] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2021-12-31 21:28:43,007 - 127.0.0.1 - - [31/Dec/2021 21:28:43] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2021-12-31 21:32:28,965 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/email.py', reloading
+INFO 2021-12-31 21:32:29,003 -  * Restarting with stat
