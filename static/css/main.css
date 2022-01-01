@@ -98,6 +98,8 @@ footer {
     margin-right: auto;
     border: 1px solid black;
     padding-top: 15px;
+    box-shadow: 4px 7px #888888;
+    border-radius: 5px;
 }
 
 .form {
@@ -116,4 +118,8 @@ footer {
 .form textarea {
     margin-top: 10px;
     width: 100%;
+}
+
+#submit {
+    width: 25%;
 }
