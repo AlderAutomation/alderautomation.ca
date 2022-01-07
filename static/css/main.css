@@ -9,17 +9,21 @@
 
 header {
     text-align: center;
-    font-size: larger;
     position: absolute;
+    font-size: larger;
     top: 0px;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
     border-bottom: 1px solid black;
     background-color: var(--accent-calour);
     z-index: 3;
     box-shadow: 0px 0px 0px 7px #888888;
 }
+
+/* .title h1 {
+    font-weight: 900;
+} */
 
 .logo {
     display: inline-flex;
