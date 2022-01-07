@@ -1,13 +1,17 @@
+import cgi
 import smtplib
 from email.message import EmailMessage
 
+form = cgi.FieldStorage()
+# name = form["name"].value
+name = form.getvalue('name')
+sender = form.getvalue('email')
+subject = form.getvalue('subject')
+formcontent = form.getvalue('message')
+
 sendto = 'info@alderautomation.ca'
-sender = 'jalepeno@gmail.com'
-subject = 'Test Email'
 user = 'alderautomationsmtp@gmail.com'
 pwd = 'r469JBdisk%'
-name = 'joe blow'
-formcontent = 'bla bla bla'
 content = 'Here is a new message from ' + name + ' at ' + sender + '\n' + formcontent
 
 message = EmailMessage()
@@ -29,3 +33,5 @@ except Exception as e:
 finally:
     if server is not None:
         server.quit()
+
+print(name)

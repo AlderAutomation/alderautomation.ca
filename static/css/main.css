@@ -3,18 +3,38 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Oxygen', sans-serif;
+    --main-colour: rgb(240, 240, 240);
+    --accent-calour: #42A27E;
 }
 
 header {
     text-align: center;
-    position: fixed;
+    font-size: larger;
+    position: absolute;
     top: 0px;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid black;
-    background-color: #00AD7C;
+    background-color: var(--accent-calour);
     z-index: 3;
+    box-shadow: 0px 0px 0px 7px #888888;
+}
+
+.logo {
+    display: inline-flex;
+}
+
+.title {
+    margin-left: 30px;
+}
+
+main {
+    background-color: var(--main-colour);
+}
+
+body {
+    background-color: var(--main-colour);
 }
 
 .sidebar {
@@ -28,7 +48,7 @@ header {
     margin-top: auto;
     margin-bottom: auto;
     padding-right: 20px;
-    background-color: #00A8CA;
+    background-color: var(--accent-calour);
     border: 1px solid black;
     border-radius: 0 5px 5px 0;
     box-shadow: 4px 7px #888888;
@@ -53,6 +73,8 @@ header {
     width: 70%;
     height: 100%;
     text-align: center;
+    background-color: var(--main-colour);
+
 }
 
 .container ul li {
@@ -65,7 +87,7 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-color: white;
+    background-color: var(--main-colour);
 }
 
 .links {
@@ -81,6 +103,29 @@ footer {
     color: antiquewhite;
 }
 
+.about {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 60px;
+    box-shadow: 4px 7px #888888;
+    border-radius: 5px;
+
+}
+
+.projects {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 60px;
+    box-shadow: 4px 7px #888888;
+    border-radius: 5px;
+}
+
 .grid-container {
     display: inline-grid;
     grid-gap: 50px;
@@ -88,8 +133,15 @@ footer {
     margin-bottom: 20px;
 }
 
-.Gotolink {
-    margin-top: 150px;
+.skills {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 60px;
+    box-shadow: 4px 7px #888888;
+    border-radius: 5px;
 }
 
 .contact {
@@ -100,6 +152,7 @@ footer {
     padding-top: 15px;
     box-shadow: 4px 7px #888888;
     border-radius: 5px;
+    background-color: white;
 }
 
 .form {
