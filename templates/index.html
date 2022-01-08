@@ -11,12 +11,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
         <title>Alder Automation</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="../static/pics/AlderLogo.png" alt="AlderAutomation Logo" width="90px">
-            <div class="title">
+    <header class="container-fluid">
+        <div class="row">
+            <div class="logo col-sm-2 col-md-3 col-lg-5 ">
+                <img src="../static/pics/AlderLogo.png" alt="AlderAutomation Logo" width="90px">
+            </div>
+            <div class="title col-sm-6 col-md-6 col-lg-6">
                 <h1>ALDER AUTOMATION</h1>
                 <h4>Software Automation. Android, Software, & Web Development. </h4>
             </div>
@@ -37,7 +40,7 @@
 
     <main>
         <div class="container">
-            <div class="about">
+            <div class="about row ">
                 <h2>About Me</h2><br>
                 
                 <p> I am a new software engineer making the change from hobby to career. I primarily work in Python but have worked in many other languages such as PHP, C++, and Java. I can do front end UI/UX but prefer working on the backend systems that keep everything running. Can work with Windows, Linux, Android, and even some game development. 
@@ -52,74 +55,44 @@
             </div>
             <a class="Gotolink" name="projects"></a><br>
 
-            <div class="projects">
+            <div class="row projects">
                 <h2>Projects</h2>
                 <br>
-                <div class="grid-container">
-                    <div class="grid1">
-                        <ul>
-                            <li>
-                                <h4>CameraToText</h4><br>
-                                <img src="../static/pics/CameraToText.png" alt="CameraToEmail" width="250px">
-                                <br>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>
+                            <h4>CameraToText</h4><br>
+                            <img src="../static/pics/CameraToText.png" alt="CameraToEmail" width="90%">
+                            <br>
 
-                                <a href="https://youtu.be/_58uEXDclJQ" target="_blank">Video</a>
-                                <a href="https://github.com/AlderAutomation/CameraToEmail" target="_blank">Github</a>
-                            </li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class="grid2">
-                        <ul>
-                            <li>
-                                <h4>TeaCozy Website</h4><br>
-                                <img src="../static/pics/TeaCozy.png" alt="TeaCozy Website" width="250px">
-                                <br>
+                            <a href="https://youtu.be/_58uEXDclJQ" target="_blank">Video</a>
+                            <a href="https://github.com/AlderAutomation/CameraToEmail" target="_blank">Github</a>
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>
+                            <h4>TeaCozy Website</h4><br>
+                            <img src="../static/pics/TeaCozy.png" alt="TeaCozy Website" width="90%">
+                            <br>
 
-                                <a href="../static/TeaProject/index.html" target="_blank">Link</a>
-                                <a href="" target="_blank">Github</a>
-                            </li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <!-- <div class="grid3">
-                        <ul>
-                            <li>
-                                <img src="" alt="TicTacToe">
-                                <br>
-
-                                <a href="">Video</a>
-                                <a href="">Github</a>
-                            </li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class="grid4">
-                        <ul>
-                            <li>
-                                <img src="" alt="CameraToEmail">
-                                <br>
-
-                                <a href="">Video</a>
-                                <a href="https://github.com/AlderAutomation/CameraToEmail">Github</a>
-                            </li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div> -->
+                            <a href="../static/TeaProject/index.html" target="_blank">Link</a>
+                            <a href="" target="_blank">Github</a>
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </div>
                 <br>
                 <br>
             </div>
 
-            <div class="skills">
+            <div class="row skills">
                 <a class="Gotolink" name="skills"></a><br>
                 <h2>Skills</h2>
                 <br>
@@ -160,11 +133,11 @@
             </div>
 
 
-            <div class="contact">
+            <div class="row lets-chat">
                 <a name="contact">
                 <h2>Let's Chat</h2>
                 <br>
-                <form class="form" method="POST" action="/">
+                <form class="form col-sm-12" method="POST" action="/">
                     <label for="name">Your Name: </label>
                     <input type="text" id="name" name="name"><br>
                     <label for="email">Your Email: </label>
@@ -182,8 +155,8 @@
     </main>
 
 <!-- Footer -->
-    <footer>
-        <ul class="links">
+    <footer class="row">
+        <ul class="links col-sm-12">
             <li><a href="mailto:info@alderautomation.ca" target="_blank"><img src="../static/pics/EmailIcon.png" alt="Email Me"></a></li>
             <li><a href="https://github.com/AlderAutomation" target="_blank"><img src="../static/pics/GHIcon.png" alt="Github"></a></li>
             <li><a href="https://twitter.com/AlderAutomation" target="_blank"><img src="../static/pics/Twittericon.png" alt="Twitter"></a></li>
@@ -193,6 +166,10 @@
         </ul>
         <p>@2021 AlderAutomation proudly created by Matthew Heltman</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

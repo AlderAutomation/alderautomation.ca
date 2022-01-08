@@ -21,7 +21,7 @@ def home():
 
         send_email(name, email, subject, message)
         
-    return render_template('layout.html')
+    return render_template('index.html')
 
 
 def send_email(name, email, subject, message):
@@ -49,11 +49,6 @@ def send_email(name, email, subject, message):
     finally:
         if server is not None:
             server.quit()
-
-
-
-
-
 
 if __name__ == "__main__":
     app.run(debug=True)
