@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import logging 
 import smtplib
 from email.message import EmailMessage
+import config
 
 app = Flask(__name__)
 
@@ -25,8 +26,8 @@ def home():
 
 def send_email(name, email, subject, message):
     sendto = 'info@alderautomation.ca'
-    user = 'alderautomationsmtp@gmail.com'
-    pwd = 'r469JBdisk%'
+    user = config.user
+    pwd = config.password
     content = 'Here is a new message from ' + name + ' at ' + email + '\n\n' + message
 
     message = EmailMessage()
