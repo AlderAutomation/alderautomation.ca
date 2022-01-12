@@ -1955,3 +1955,56 @@ INFO 2022-01-08 14:56:57,764 - 127.0.0.1 - - [08/Jan/2022 14:56:57] "[36mGET /s
 INFO 2022-01-08 14:56:57,765 - 127.0.0.1 - - [08/Jan/2022 14:56:57] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
 INFO 2022-01-08 14:56:57,773 - 127.0.0.1 - - [08/Jan/2022 14:56:57] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
 INFO 2022-01-08 14:56:57,774 - 127.0.0.1 - - [08/Jan/2022 14:56:57] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:07,263 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2022-01-10 18:48:07,265 -  * Restarting with stat
+WARNING 2022-01-10 18:48:07,501 -  * Debugger is active!
+INFO 2022-01-10 18:48:07,501 -  * Debugger PIN: 106-069-011
+INFO 2022-01-10 18:48:09,008 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "GET / HTTP/1.1" 200 -
+INFO 2022-01-10 18:48:09,092 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:09,452 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:09,453 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:09,456 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:09,456 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "[36mGET /static/pics/AlderLogo.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:09,467 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:09,460 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:09,463 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:09,457 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:09,475 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:09,891 - 127.0.0.1 - - [10/Jan/2022 18:48:09] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2022-01-10 18:48:34,128 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "GET / HTTP/1.1" 200 -
+INFO 2022-01-10 18:48:34,179 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-10 18:48:34,348 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "[36mGET /static/pics/AlderLogo.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:34,360 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:34,364 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:34,366 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:34,367 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:34,372 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:34,372 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:34,378 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:34,378 - 127.0.0.1 - - [10/Jan/2022 18:48:34] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:54,269 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "GET / HTTP/1.1" 200 -
+INFO 2022-01-10 18:48:54,314 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-10 18:48:54,381 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "[36mGET /static/pics/AlderLogo.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:54,382 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:54,384 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:54,386 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:54,387 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:54,388 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:54,389 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:54,395 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-10 18:48:54,397 - 127.0.0.1 - - [10/Jan/2022 18:48:54] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-12 09:49:09,538 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2022-01-12 09:49:09,541 -  * Restarting with stat
+WARNING 2022-01-12 09:49:09,754 -  * Debugger is active!
+INFO 2022-01-12 09:49:09,755 -  * Debugger PIN: 106-069-011
+INFO 2022-01-12 09:49:13,850 - 127.0.0.1 - - [12/Jan/2022 09:49:13] "GET / HTTP/1.1" 200 -
+INFO 2022-01-12 09:49:13,919 - 127.0.0.1 - - [12/Jan/2022 09:49:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2022-01-12 09:49:14,330 - 127.0.0.1 - - [12/Jan/2022 09:49:14] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-12 09:49:14,342 - 127.0.0.1 - - [12/Jan/2022 09:49:14] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-12 09:49:14,344 - 127.0.0.1 - - [12/Jan/2022 09:49:14] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-12 09:49:14,344 - 127.0.0.1 - - [12/Jan/2022 09:49:14] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-12 09:49:14,345 - 127.0.0.1 - - [12/Jan/2022 09:49:14] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-12 09:49:14,347 - 127.0.0.1 - - [12/Jan/2022 09:49:14] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-12 09:49:14,354 - 127.0.0.1 - - [12/Jan/2022 09:49:14] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-12 09:49:14,358 - 127.0.0.1 - - [12/Jan/2022 09:49:14] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-12 09:49:14,362 - 127.0.0.1 - - [12/Jan/2022 09:49:14] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
