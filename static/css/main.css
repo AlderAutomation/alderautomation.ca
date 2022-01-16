@@ -19,9 +19,9 @@ header {
 }
 
 .sidebar {
-    text-align: center;
+    text-align: right;
     position: fixed;
-    left: -90px;
+    left: -80px;
     top: 250px;
     transition: 0.4s;
     width: 100px;
@@ -37,9 +37,13 @@ header {
 } 
 
 .sidebar ul li {
-    list-style: none;
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
 }
 
 .sidebar:hover {
@@ -111,4 +115,8 @@ header {
 
 .links li {
     padding: 2%;
+}
+
+.copyright {
+    text-align: center;
 }
