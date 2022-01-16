@@ -2255,3 +2255,350 @@ INFO 2022-01-15 19:08:45,692 - 127.0.0.1 - - [15/Jan/2022 19:08:45] "[36mGET /s
 INFO 2022-01-15 19:08:45,693 - 127.0.0.1 - - [15/Jan/2022 19:08:45] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
 INFO 2022-01-15 19:08:45,695 - 127.0.0.1 - - [15/Jan/2022 19:08:45] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
 INFO 2022-01-15 19:08:45,696 - 127.0.0.1 - - [15/Jan/2022 19:08:45] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:16:59,632 - 127.0.0.1 - - [15/Jan/2022 19:16:59] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:16:59,675 - 127.0.0.1 - - [15/Jan/2022 19:16:59] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:17:00,358 - 127.0.0.1 - - [15/Jan/2022 19:17:00] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:17:00,360 - 127.0.0.1 - - [15/Jan/2022 19:17:00] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:17:00,361 - 127.0.0.1 - - [15/Jan/2022 19:17:00] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:17:00,361 - 127.0.0.1 - - [15/Jan/2022 19:17:00] "GET /static/pics/TeaCozy.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:17:00,363 - 127.0.0.1 - - [15/Jan/2022 19:17:00] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:17:00,365 - 127.0.0.1 - - [15/Jan/2022 19:17:00] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:17:00,368 - 127.0.0.1 - - [15/Jan/2022 19:17:00] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:17:00,407 - 127.0.0.1 - - [15/Jan/2022 19:17:00] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:17:00,408 - 127.0.0.1 - - [15/Jan/2022 19:17:00] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:17:00,550 - 127.0.0.1 - - [15/Jan/2022 19:17:00] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:19:48,457 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:19:48,535 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:19:48,702 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:19:48,705 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:19:48,706 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:19:48,707 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:19:48,707 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:19:48,709 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:19:48,709 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:19:48,714 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:19:48,717 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:19:48,888 - 127.0.0.1 - - [15/Jan/2022 19:19:48] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:03,472 - 127.0.0.1 - - [15/Jan/2022 19:24:03] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:03,547 - 127.0.0.1 - - [15/Jan/2022 19:24:03] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:04,021 - 127.0.0.1 - - [15/Jan/2022 19:24:04] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:04,024 - 127.0.0.1 - - [15/Jan/2022 19:24:04] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:04,025 - 127.0.0.1 - - [15/Jan/2022 19:24:04] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:04,025 - 127.0.0.1 - - [15/Jan/2022 19:24:04] "GET /static/pics/TeaCozy.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:04,026 - 127.0.0.1 - - [15/Jan/2022 19:24:04] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:04,026 - 127.0.0.1 - - [15/Jan/2022 19:24:04] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:04,027 - 127.0.0.1 - - [15/Jan/2022 19:24:04] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:04,034 - 127.0.0.1 - - [15/Jan/2022 19:24:04] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:04,041 - 127.0.0.1 - - [15/Jan/2022 19:24:04] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:04,253 - 127.0.0.1 - - [15/Jan/2022 19:24:04] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,166 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,225 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,847 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,850 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,850 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET /static/pics/TeaCozy.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,853 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,853 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,853 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,854 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,858 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:49,865 - 127.0.0.1 - - [15/Jan/2022 19:24:49] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:24:50,130 - 127.0.0.1 - - [15/Jan/2022 19:24:50] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:27,929 - 127.0.0.1 - - [15/Jan/2022 19:25:27] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,009 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,356 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,358 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,359 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/pics/TeaCozy.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,361 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,361 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,362 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,363 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,366 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,372 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:25:28,602 - 127.0.0.1 - - [15/Jan/2022 19:25:28] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:22,568 - 127.0.0.1 - - [15/Jan/2022 19:26:22] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:22,645 - 127.0.0.1 - - [15/Jan/2022 19:26:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:23,042 - 127.0.0.1 - - [15/Jan/2022 19:26:23] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:23,042 - 127.0.0.1 - - [15/Jan/2022 19:26:23] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:23,046 - 127.0.0.1 - - [15/Jan/2022 19:26:23] "GET /static/pics/TeaCozy.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:23,046 - 127.0.0.1 - - [15/Jan/2022 19:26:23] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:23,046 - 127.0.0.1 - - [15/Jan/2022 19:26:23] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:23,047 - 127.0.0.1 - - [15/Jan/2022 19:26:23] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:23,047 - 127.0.0.1 - - [15/Jan/2022 19:26:23] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:23,056 - 127.0.0.1 - - [15/Jan/2022 19:26:23] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:23,060 - 127.0.0.1 - - [15/Jan/2022 19:26:23] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:26:23,215 - 127.0.0.1 - - [15/Jan/2022 19:26:23] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:27:05,752 - 127.0.0.1 - - [15/Jan/2022 19:27:05] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:27:05,817 - 127.0.0.1 - - [15/Jan/2022 19:27:05] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:27:05,999 - 127.0.0.1 - - [15/Jan/2022 19:27:05] "[36mGET /static/pics/AlderLogo.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:06,000 - 127.0.0.1 - - [15/Jan/2022 19:27:06] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:06,001 - 127.0.0.1 - - [15/Jan/2022 19:27:06] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:06,002 - 127.0.0.1 - - [15/Jan/2022 19:27:06] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:06,003 - 127.0.0.1 - - [15/Jan/2022 19:27:06] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:06,004 - 127.0.0.1 - - [15/Jan/2022 19:27:06] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:06,005 - 127.0.0.1 - - [15/Jan/2022 19:27:06] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:06,009 - 127.0.0.1 - - [15/Jan/2022 19:27:06] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:06,009 - 127.0.0.1 - - [15/Jan/2022 19:27:06] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:31,438 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:27:31,499 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:27:31,565 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "[36mGET /static/pics/AlderLogo.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:31,565 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:31,566 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:31,569 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:31,570 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:31,571 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:31,571 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:31,575 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:31,575 - 127.0.0.1 - - [15/Jan/2022 19:27:31] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:39,743 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:27:39,800 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:27:39,885 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "[36mGET /static/pics/AlderLogo.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:39,886 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:39,888 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:39,889 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:39,891 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:39,891 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:39,891 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:39,899 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:27:39,900 - 127.0.0.1 - - [15/Jan/2022 19:27:39] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:28:05,490 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:05,539 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:05,592 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "[36mGET /static/pics/AlderLogo.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:28:05,596 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:28:05,597 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:28:05,597 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:28:05,600 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:28:05,601 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:28:05,603 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:28:05,603 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:28:05,606 - 127.0.0.1 - - [15/Jan/2022 19:28:05] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:28:26,654 - 127.0.0.1 - - [15/Jan/2022 19:28:26] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:26,714 - 127.0.0.1 - - [15/Jan/2022 19:28:26] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:27,060 - 127.0.0.1 - - [15/Jan/2022 19:28:27] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:27,062 - 127.0.0.1 - - [15/Jan/2022 19:28:27] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:27,063 - 127.0.0.1 - - [15/Jan/2022 19:28:27] "GET /static/pics/TeaCozy.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:27,066 - 127.0.0.1 - - [15/Jan/2022 19:28:27] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:27,067 - 127.0.0.1 - - [15/Jan/2022 19:28:27] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:27,067 - 127.0.0.1 - - [15/Jan/2022 19:28:27] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:27,068 - 127.0.0.1 - - [15/Jan/2022 19:28:27] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:27,070 - 127.0.0.1 - - [15/Jan/2022 19:28:27] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:27,075 - 127.0.0.1 - - [15/Jan/2022 19:28:27] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:28:27,266 - 127.0.0.1 - - [15/Jan/2022 19:28:27] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:29:05,483 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:29:05,551 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:29:05,610 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "[36mGET /static/pics/AlderLogo.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:29:05,611 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:29:05,613 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:29:05,614 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:29:05,614 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:29:05,616 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:29:05,616 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:29:05,619 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:29:05,620 - 127.0.0.1 - - [15/Jan/2022 19:29:05] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:30:40,941 - 127.0.0.1 - - [15/Jan/2022 19:30:40] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:30:41,018 - 127.0.0.1 - - [15/Jan/2022 19:30:41] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:30:41,153 - 127.0.0.1 - - [15/Jan/2022 19:30:41] "[36mGET /static/pics/AlderLogo.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:30:41,153 - 127.0.0.1 - - [15/Jan/2022 19:30:41] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:30:41,155 - 127.0.0.1 - - [15/Jan/2022 19:30:41] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:30:41,157 - 127.0.0.1 - - [15/Jan/2022 19:30:41] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:30:41,158 - 127.0.0.1 - - [15/Jan/2022 19:30:41] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:30:41,160 - 127.0.0.1 - - [15/Jan/2022 19:30:41] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:30:41,161 - 127.0.0.1 - - [15/Jan/2022 19:30:41] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:30:41,162 - 127.0.0.1 - - [15/Jan/2022 19:30:41] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:30:41,164 - 127.0.0.1 - - [15/Jan/2022 19:30:41] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:42:52,231 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:42:52,318 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:42:52,669 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:42:52,669 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:42:52,671 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "[36mGET /static/pics/AlderLogo.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:42:52,671 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:42:52,671 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:42:52,671 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:42:52,676 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:42:52,677 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:42:52,685 - 127.0.0.1 - - [15/Jan/2022 19:42:52] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:44:56,316 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:44:56,355 -  * Restarting with stat
+WARNING 2022-01-15 19:44:56,526 -  * Debugger is active!
+INFO 2022-01-15 19:44:56,526 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:44:59,969 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:44:59,995 -  * Restarting with stat
+INFO 2022-01-15 19:48:40,482 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2022-01-15 19:48:40,484 -  * Restarting with stat
+WARNING 2022-01-15 19:48:40,656 -  * Debugger is active!
+INFO 2022-01-15 19:48:40,656 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:48:42,444 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "GET / HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:42,501 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:42,857 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:42,859 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:42,862 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:42,863 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:42,867 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:42,867 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:42,869 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:42,877 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-15 19:48:42,879 - 127.0.0.1 - - [15/Jan/2022 19:48:42] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:43,188 - 127.0.0.1 - - [15/Jan/2022 19:48:43] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:48:55,145 - 127.0.0.1 - - [15/Jan/2022 19:48:55] "[33mGET /mheltmanresume.pdf HTTP/1.1[0m" 404 -
+INFO 2022-01-15 19:48:55,225 - 127.0.0.1 - - [15/Jan/2022 19:48:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2022-01-15 19:49:04,170 - 127.0.0.1 - - [15/Jan/2022 19:49:04] "GET /mheltmanresume HTTP/1.1" 200 -
+INFO 2022-01-15 19:50:26,232 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:50:26,268 -  * Restarting with stat
+WARNING 2022-01-15 19:50:26,436 -  * Debugger is active!
+INFO 2022-01-15 19:50:26,437 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:50:54,050 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:50:54,082 -  * Restarting with stat
+WARNING 2022-01-15 19:50:54,265 -  * Debugger is active!
+INFO 2022-01-15 19:50:54,266 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:50:55,508 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:50:55,536 -  * Restarting with stat
+WARNING 2022-01-15 19:50:55,722 -  * Debugger is active!
+INFO 2022-01-15 19:50:55,722 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:50:59,144 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:50:59,171 -  * Restarting with stat
+WARNING 2022-01-15 19:50:59,371 -  * Debugger is active!
+INFO 2022-01-15 19:50:59,371 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:51:00,641 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:51:00,669 -  * Restarting with stat
+WARNING 2022-01-15 19:51:00,834 -  * Debugger is active!
+INFO 2022-01-15 19:51:00,834 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:51:07,640 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:51:07,669 -  * Restarting with stat
+WARNING 2022-01-15 19:51:07,846 -  * Debugger is active!
+INFO 2022-01-15 19:51:07,846 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:51:46,508 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:51:46,546 -  * Restarting with stat
+WARNING 2022-01-15 19:51:46,737 -  * Debugger is active!
+INFO 2022-01-15 19:51:46,738 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:52:15,537 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:52:15,572 -  * Restarting with stat
+WARNING 2022-01-15 19:52:15,771 -  * Debugger is active!
+INFO 2022-01-15 19:52:15,772 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:52:30,308 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:52:30,340 -  * Restarting with stat
+WARNING 2022-01-15 19:52:30,521 -  * Debugger is active!
+INFO 2022-01-15 19:52:30,521 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:52:31,792 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:52:31,826 -  * Restarting with stat
+WARNING 2022-01-15 19:52:32,006 -  * Debugger is active!
+INFO 2022-01-15 19:52:32,007 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:52:33,297 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:52:33,331 -  * Restarting with stat
+WARNING 2022-01-15 19:52:33,506 -  * Debugger is active!
+INFO 2022-01-15 19:52:33,507 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:52:35,894 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:52:35,920 -  * Restarting with stat
+WARNING 2022-01-15 19:52:36,100 -  * Debugger is active!
+INFO 2022-01-15 19:52:36,100 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:52:37,331 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:52:37,368 -  * Restarting with stat
+WARNING 2022-01-15 19:52:37,561 -  * Debugger is active!
+INFO 2022-01-15 19:52:37,561 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:52:43,161 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:52:43,192 -  * Restarting with stat
+WARNING 2022-01-15 19:52:43,395 -  * Debugger is active!
+INFO 2022-01-15 19:52:43,396 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:52:56,782 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:52:56,825 -  * Restarting with stat
+WARNING 2022-01-15 19:52:57,009 -  * Debugger is active!
+INFO 2022-01-15 19:52:57,009 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:53:05,645 - 127.0.0.1 - - [15/Jan/2022 19:53:05] "[35m[1mGET /mheltmanresume HTTP/1.1[0m" 500 -
+INFO 2022-01-15 19:53:05,701 - 127.0.0.1 - - [15/Jan/2022 19:53:05] "GET /mheltmanresume?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2022-01-15 19:53:05,703 - 127.0.0.1 - - [15/Jan/2022 19:53:05] "GET /mheltmanresume?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:53:05,738 - 127.0.0.1 - - [15/Jan/2022 19:53:05] "GET /mheltmanresume?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:54:16,316 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:54:16,370 -  * Restarting with stat
+WARNING 2022-01-15 19:54:16,557 -  * Debugger is active!
+INFO 2022-01-15 19:54:16,557 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:54:17,789 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:54:17,833 -  * Restarting with stat
+WARNING 2022-01-15 19:54:18,055 -  * Debugger is active!
+INFO 2022-01-15 19:54:18,056 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:54:19,315 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:54:19,351 -  * Restarting with stat
+WARNING 2022-01-15 19:54:19,551 -  * Debugger is active!
+INFO 2022-01-15 19:54:19,551 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:54:24,120 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:54:24,146 -  * Restarting with stat
+WARNING 2022-01-15 19:54:24,362 -  * Debugger is active!
+INFO 2022-01-15 19:54:24,362 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:54:25,344 - 127.0.0.1 - - [15/Jan/2022 19:54:25] "[35m[1mGET /mheltmanresume HTTP/1.1[0m" 500 -
+INFO 2022-01-15 19:54:25,389 - 127.0.0.1 - - [15/Jan/2022 19:54:25] "GET /mheltmanresume?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2022-01-15 19:54:25,390 - 127.0.0.1 - - [15/Jan/2022 19:54:25] "GET /mheltmanresume?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:54:25,408 - 127.0.0.1 - - [15/Jan/2022 19:54:25] "GET /mheltmanresume?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:54:27,880 - 127.0.0.1 - - [15/Jan/2022 19:54:27] "[35m[1mGET /mheltmanresume HTTP/1.1[0m" 500 -
+INFO 2022-01-15 19:54:27,918 - 127.0.0.1 - - [15/Jan/2022 19:54:27] "GET /mheltmanresume?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2022-01-15 19:54:27,919 - 127.0.0.1 - - [15/Jan/2022 19:54:27] "GET /mheltmanresume?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2022-01-15 19:54:27,943 - 127.0.0.1 - - [15/Jan/2022 19:54:27] "GET /mheltmanresume?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:54:27,946 - 127.0.0.1 - - [15/Jan/2022 19:54:27] "GET /mheltmanresume?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:54:52,156 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:54:52,196 -  * Restarting with stat
+WARNING 2022-01-15 19:54:52,368 -  * Debugger is active!
+INFO 2022-01-15 19:54:52,368 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:54:53,654 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:54:53,684 -  * Restarting with stat
+WARNING 2022-01-15 19:54:53,869 -  * Debugger is active!
+INFO 2022-01-15 19:54:53,870 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:55:00,641 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:55:00,672 -  * Restarting with stat
+WARNING 2022-01-15 19:55:00,860 -  * Debugger is active!
+INFO 2022-01-15 19:55:00,860 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:55:03,294 - 127.0.0.1 - - [15/Jan/2022 19:55:03] "GET /mheltmanresume HTTP/1.1" 200 -
+INFO 2022-01-15 19:55:11,538 - 127.0.0.1 - - [15/Jan/2022 19:55:11] "GET /mheltmanresume HTTP/1.1" 200 -
+INFO 2022-01-15 19:55:11,596 - 127.0.0.1 - - [15/Jan/2022 19:55:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2022-01-15 19:57:14,804 - 127.0.0.1 - - [15/Jan/2022 19:57:14] "GET /static/docs/MHeltmanResume.pdf HTTP/1.1" 200 -
+INFO 2022-01-15 19:57:33,589 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:57:33,636 -  * Restarting with stat
+WARNING 2022-01-15 19:57:33,851 -  * Debugger is active!
+INFO 2022-01-15 19:57:33,851 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:57:58,714 - 127.0.0.1 - - [15/Jan/2022 19:57:58] "[33mGET /MHeltmanResume.pdf HTTP/1.1[0m" 404 -
+INFO 2022-01-15 19:58:02,439 - 127.0.0.1 - - [15/Jan/2022 19:58:02] "[33mGET /MHeltmanResume.pdf HTTP/1.1[0m" 404 -
+INFO 2022-01-15 19:58:02,479 - 127.0.0.1 - - [15/Jan/2022 19:58:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2022-01-15 19:58:09,153 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:58:09,182 -  * Restarting with stat
+WARNING 2022-01-15 19:58:09,365 -  * Debugger is active!
+INFO 2022-01-15 19:58:09,365 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 19:58:13,395 - 127.0.0.1 - - [15/Jan/2022 19:58:13] "[33mGET /MHeltmanResume.pdf HTTP/1.1[0m" 404 -
+INFO 2022-01-15 19:58:14,385 - 127.0.0.1 - - [15/Jan/2022 19:58:14] "[33mGET /MHeltmanResume.pdf HTTP/1.1[0m" 404 -
+INFO 2022-01-15 19:58:14,426 - 127.0.0.1 - - [15/Jan/2022 19:58:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2022-01-15 19:59:14,445 - 127.0.0.1 - - [15/Jan/2022 19:59:14] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-15 19:59:54,941 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 19:59:54,980 -  * Restarting with stat
+WARNING 2022-01-15 19:59:55,189 -  * Debugger is active!
+INFO 2022-01-15 19:59:55,189 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 20:00:33,763 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 20:00:33,797 -  * Restarting with stat
+WARNING 2022-01-15 20:00:33,981 -  * Debugger is active!
+INFO 2022-01-15 20:00:33,981 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 20:00:36,323 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 20:00:36,354 -  * Restarting with stat
+WARNING 2022-01-15 20:00:36,537 -  * Debugger is active!
+INFO 2022-01-15 20:00:36,537 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 20:00:39,993 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 20:00:40,035 -  * Restarting with stat
+WARNING 2022-01-15 20:00:40,225 -  * Debugger is active!
+INFO 2022-01-15 20:00:40,225 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 20:00:42,538 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 20:00:42,572 -  * Restarting with stat
+WARNING 2022-01-15 20:00:42,769 -  * Debugger is active!
+INFO 2022-01-15 20:00:42,769 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 20:00:47,288 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 20:00:47,313 -  * Restarting with stat
+WARNING 2022-01-15 20:00:47,510 -  * Debugger is active!
+INFO 2022-01-15 20:00:47,511 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 20:00:53,139 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 20:00:53,172 -  * Restarting with stat
+WARNING 2022-01-15 20:00:53,349 -  * Debugger is active!
+INFO 2022-01-15 20:00:53,349 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 20:00:54,614 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 20:00:54,643 -  * Restarting with stat
+WARNING 2022-01-15 20:00:54,822 -  * Debugger is active!
+INFO 2022-01-15 20:00:54,822 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 20:01:13,699 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-01-15 20:01:13,730 -  * Restarting with stat
+WARNING 2022-01-15 20:01:13,909 -  * Debugger is active!
+INFO 2022-01-15 20:01:13,909 -  * Debugger PIN: 108-683-466
+INFO 2022-01-15 20:01:22,812 - 127.0.0.1 - - [15/Jan/2022 20:01:22] "[33mGET /MHeltmanResume.pdf HTTP/1.1[0m" 404 -
+INFO 2022-01-15 20:01:24,818 - 127.0.0.1 - - [15/Jan/2022 20:01:24] "[33mGET /MHeltmanResume.pdf HTTP/1.1[0m" 404 -
+INFO 2022-01-15 20:01:24,856 - 127.0.0.1 - - [15/Jan/2022 20:01:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2022-01-15 20:01:38,280 - 127.0.0.1 - - [15/Jan/2022 20:01:38] "[32mGET /mheltmanresume HTTP/1.1[0m" 302 -
+INFO 2022-01-15 20:01:38,322 - 127.0.0.1 - - [15/Jan/2022 20:01:38] "GET /static/docs/MHeltmanResume.pdf HTTP/1.1" 200 -

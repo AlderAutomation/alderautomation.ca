@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, redirect, render_template, request, send_file
 import logging 
 import smtplib
 from email.message import EmailMessage
@@ -36,7 +36,7 @@ def send_email(name, email, subject, message):
     message['Subject'] = subject
     message['From'] = email
     message['To'] = sendto
-
+    
 
     try:
         server = smtplib.SMTP("smtp.gmail.com", 587)
@@ -49,6 +49,13 @@ def send_email(name, email, subject, message):
     finally:
         if server is not None:
             server.quit()
+
+
+@app.route('/mheltmanresume')
+def show_static_pdf():
+    with open('./static/docs/MHeltmanResume.pdf', 'rb') as static_file:
+        return redirect('../static/docs/MHeltmanResume.pdf')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
