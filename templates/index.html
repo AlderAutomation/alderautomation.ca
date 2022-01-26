@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel ="stylesheet" href="{{ url_for('static', filename='css/main.css' )}}">
-        <link rel="shortcut icon" href="../static/pics/AlderLogoBW.png" type="image/x-icon">
+        <link rel="shortcut icon" href="../static/pics/favicon.png" type="image/x-icon">
         <script src="https://kit.fontawesome.com/bd96cffda5.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     <header class="container-fluid">
         <div class="row">
             <div class="logo col-sm-2 col-md-3 col-lg-5 ">
-                <img src="../static/pics/AlderLogo.png" alt="AlderAutomation Logo" width="90px">
+                <img src="../static/pics/headericon.png" alt="AlderAutomation Logo" width="90px">
             </div>
             <div class="title col-sm-6 col-md-6 col-lg-6">
                 <h1>ALDER AUTOMATION</h1>
@@ -34,13 +34,13 @@
             <li><a href="#aboutme">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Let's Chat</a></li>
+            <li><a href="#lets-chat">Let's Chat</a></li>
         </ul>
     </div>
 
     <main>
         <div class="container">
-            <div class="about row ">
+            <div class="about row">
                 <h2>About Me</h2><br>
                 
                 <p> I am a new software engineer making the change from hobby to career. I primarily work in Python but have worked in many other languages such as PHP, C++, and Java. I can do front end UI/UX but prefer working on the backend systems that keep everything running. Can work with Windows, Linux, Android, and even some game development. 
@@ -136,6 +136,7 @@
             <div class="row lets-chat">
                 <h2>Let's Chat</h2>
                 <br>
+                <a class="Gotolink" name="lets-chat"></a><br>
                 <form class="form col-sm-12" method="POST" action="/">
                     <label for="name">Your Name: </label>
                     <input type="text" id="name" name="name"><br>

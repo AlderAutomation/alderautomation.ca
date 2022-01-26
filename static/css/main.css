@@ -2,9 +2,9 @@
     /* border: 1px solid red; */
     padding: 0px;
     margin: 0px;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Gill', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --main-colour: rgb(240, 240, 240);
-    --accent-calour: #00AD7C;
+    --accent-calour: #4675B8;
     list-style: none;
 }
 
@@ -14,6 +14,10 @@ header {
     margin-bottom: 10px;
     max-height: 105px;
 }
+
+.title {
+    color: var(--main-colour);
+} 
 
 .logo {
     text-align: end;
@@ -44,7 +48,7 @@ header {
 
 .sidebar a {
     text-decoration: none;
-    color: black;
+    color: var(--main-colour);
 }
 
 .sidebar:hover {
