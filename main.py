@@ -57,5 +57,15 @@ def show_static_pdf():
         return redirect('../static/docs/MHeltmanResume.pdf')
 
 
+@app.route('/calc_update')
+def calc_update():
+    return redirect("../static/updates/calc/update.zip")
+
+
+@app.route('/calc_update/version')
+def calc_update_version():
+    return "0.01"
+
+
 if __name__ == "__main__":
     app.run(debug=True)

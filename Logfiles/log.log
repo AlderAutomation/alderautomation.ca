@@ -2602,3 +2602,247 @@ INFO 2022-01-15 20:01:24,818 - 127.0.0.1 - - [15/Jan/2022 20:01:24] "[33mGET /M
 INFO 2022-01-15 20:01:24,856 - 127.0.0.1 - - [15/Jan/2022 20:01:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO 2022-01-15 20:01:38,280 - 127.0.0.1 - - [15/Jan/2022 20:01:38] "[32mGET /mheltmanresume HTTP/1.1[0m" 302 -
 INFO 2022-01-15 20:01:38,322 - 127.0.0.1 - - [15/Jan/2022 20:01:38] "GET /static/docs/MHeltmanResume.pdf HTTP/1.1" 200 -
+INFO 2022-01-26 13:26:53,359 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2022-01-26 13:26:53,362 -  * Restarting with stat
+WARNING 2022-01-26 13:26:53,554 -  * Debugger is active!
+INFO 2022-01-26 13:26:53,608 -  * Debugger PIN: 138-099-919
+INFO 2022-01-26 13:27:02,950 - 127.0.0.1 - - [26/Jan/2022 13:27:02] "GET / HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,041 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,392 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,395 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,396 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,396 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,397 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,405 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,462 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,463 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/pics/TeaCozy.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,467 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:27:03,784 - 127.0.0.1 - - [26/Jan/2022 13:27:03] "GET /static/pics/AlderLogoBW.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:32,989 - 127.0.0.1 - - [26/Jan/2022 13:33:32] "GET / HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,037 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,491 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/pics/AlderLogo.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,492 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,492 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/pics/TeaCozy.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,493 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,493 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,494 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,496 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,502 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,509 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:33:33,884 - 127.0.0.1 - - [26/Jan/2022 13:33:33] "GET /static/pics/favicon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:34:06,638 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "GET / HTTP/1.1" 200 -
+INFO 2022-01-26 13:34:06,680 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:06,692 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "GET /static/pics/headericon.png HTTP/1.1" 200 -
+INFO 2022-01-26 13:34:06,782 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:06,783 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:06,784 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:06,786 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:06,788 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:06,788 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:06,789 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:06,793 - 127.0.0.1 - - [26/Jan/2022 13:34:06] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:24,848 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "GET / HTTP/1.1" 200 -
+INFO 2022-01-26 13:34:24,884 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:24,953 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "[36mGET /static/pics/headericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:24,955 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:24,957 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:24,957 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:24,958 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:24,959 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:24,959 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:24,964 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:34:24,964 - 127.0.0.1 - - [26/Jan/2022 13:34:24] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:35:55,001 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "GET / HTTP/1.1" 200 -
+INFO 2022-01-26 13:35:55,048 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-26 13:35:55,224 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:35:55,224 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:35:55,227 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:35:55,228 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "[36mGET /static/pics/headericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:35:55,229 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:35:55,229 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:35:55,229 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:35:55,234 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:35:55,235 - 127.0.0.1 - - [26/Jan/2022 13:35:55] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:37:45,611 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "GET / HTTP/1.1" 200 -
+INFO 2022-01-26 13:37:45,666 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-26 13:37:45,869 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:37:45,870 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:37:45,870 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:37:45,870 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "[36mGET /static/pics/headericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:37:45,875 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:37:45,881 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:37:45,883 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:37:45,895 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:37:45,896 - 127.0.0.1 - - [26/Jan/2022 13:37:45] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:38:07,275 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "GET / HTTP/1.1" 200 -
+INFO 2022-01-26 13:38:07,304 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-01-26 13:38:07,380 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "[36mGET /static/pics/headericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:38:07,382 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:38:07,383 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:38:07,384 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:38:07,385 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:38:07,386 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:38:07,386 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:38:07,391 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:38:07,391 - 127.0.0.1 - - [26/Jan/2022 13:38:07] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:39:25,804 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "GET / HTTP/1.1" 200 -
+INFO 2022-01-26 13:39:25,841 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:39:25,959 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "[36mGET /static/pics/headericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:39:25,959 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:39:25,960 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:39:25,963 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:39:25,963 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:39:25,964 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:39:25,965 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:39:25,965 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:39:25,969 - 127.0.0.1 - - [26/Jan/2022 13:39:25] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:46:36,952 - 127.0.0.1 - - [26/Jan/2022 13:46:36] "GET / HTTP/1.1" 200 -
+INFO 2022-01-26 13:46:37,032 - 127.0.0.1 - - [26/Jan/2022 13:46:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:46:37,272 - 127.0.0.1 - - [26/Jan/2022 13:46:37] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:46:37,272 - 127.0.0.1 - - [26/Jan/2022 13:46:37] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:46:37,274 - 127.0.0.1 - - [26/Jan/2022 13:46:37] "[36mGET /static/pics/headericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:46:37,274 - 127.0.0.1 - - [26/Jan/2022 13:46:37] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:46:37,276 - 127.0.0.1 - - [26/Jan/2022 13:46:37] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:46:37,283 - 127.0.0.1 - - [26/Jan/2022 13:46:37] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:46:37,281 - 127.0.0.1 - - [26/Jan/2022 13:46:37] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:46:37,276 - 127.0.0.1 - - [26/Jan/2022 13:46:37] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:46:37,286 - 127.0.0.1 - - [26/Jan/2022 13:46:37] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:47:43,592 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "POST / HTTP/1.1" 200 -
+INFO 2022-01-26 13:47:43,637 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:47:43,763 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "[36mGET /static/pics/headericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:47:43,767 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:47:43,767 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:47:43,768 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:47:43,769 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:47:43,770 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:47:43,771 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:47:43,772 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-01-26 13:47:43,778 - 127.0.0.1 - - [26/Jan/2022 13:47:43] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-03-10 19:51:29,140 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2022-03-10 19:51:29,142 -  * Restarting with stat
+WARNING 2022-03-10 19:51:29,290 -  * Debugger is active!
+INFO 2022-03-10 19:51:29,347 -  * Debugger PIN: 141-764-638
+INFO 2022-03-10 19:51:40,902 - 127.0.0.1 - - [10/Mar/2022 19:51:40] "GET / HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:40,991 - 127.0.0.1 - - [10/Mar/2022 19:51:40] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:41,250 - 127.0.0.1 - - [10/Mar/2022 19:51:41] "GET /static/pics/GHIcon.png HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:41,251 - 127.0.0.1 - - [10/Mar/2022 19:51:41] "GET /static/pics/CameraToText.png HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:41,268 - 127.0.0.1 - - [10/Mar/2022 19:51:41] "GET /static/pics/EmailIcon.png HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:41,268 - 127.0.0.1 - - [10/Mar/2022 19:51:41] "GET /static/pics/headericon.png HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:41,385 - 127.0.0.1 - - [10/Mar/2022 19:51:41] "GET /static/pics/Twittericon.png HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:41,387 - 127.0.0.1 - - [10/Mar/2022 19:51:41] "GET /static/pics/TeaCozy.png HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:41,391 - 127.0.0.1 - - [10/Mar/2022 19:51:41] "GET /static/pics/FBIcon.png HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:41,403 - 127.0.0.1 - - [10/Mar/2022 19:51:41] "GET /static/pics/YTIcon.png HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:41,403 - 127.0.0.1 - - [10/Mar/2022 19:51:41] "GET /static/pics/LinkedinIcon.png HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:41,533 - 127.0.0.1 - - [10/Mar/2022 19:51:41] "GET /static/pics/favicon.png HTTP/1.1" 200 -
+INFO 2022-03-10 19:51:52,026 - 127.0.0.1 - - [10/Mar/2022 19:51:52] "[33mGET /update/calc HTTP/1.1[0m" 404 -
+INFO 2022-03-10 19:51:52,089 - 127.0.0.1 - - [10/Mar/2022 19:51:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2022-03-10 19:52:06,196 - 127.0.0.1 - - [10/Mar/2022 19:52:06] "[33mGET /updates/calc/update.zip HTTP/1.1[0m" 404 -
+INFO 2022-03-10 19:52:20,016 - 127.0.0.1 - - [10/Mar/2022 19:52:20] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 19:52:20,022 - 127.0.0.1 - - [10/Mar/2022 19:52:20] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 19:52:46,002 - 127.0.0.1 - - [10/Mar/2022 19:52:46] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 19:52:46,005 - 127.0.0.1 - - [10/Mar/2022 19:52:46] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 19:55:11,963 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-03-10 19:55:11,996 -  * Restarting with stat
+WARNING 2022-03-10 19:55:12,157 -  * Debugger is active!
+INFO 2022-03-10 19:55:12,158 -  * Debugger PIN: 141-764-638
+INFO 2022-03-10 19:55:17,955 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-03-10 19:55:18,007 -  * Restarting with stat
+INFO 2022-03-10 20:04:53,796 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2022-03-10 20:04:53,798 -  * Restarting with stat
+WARNING 2022-03-10 20:04:53,950 -  * Debugger is active!
+INFO 2022-03-10 20:04:53,950 -  * Debugger PIN: 141-764-638
+INFO 2022-03-10 20:04:56,103 - 127.0.0.1 - - [10/Mar/2022 20:04:56] "[35m[1mGET /calc_update/version HTTP/1.1[0m" 500 -
+INFO 2022-03-10 20:04:56,147 - 127.0.0.1 - - [10/Mar/2022 20:04:56] "GET /calc_update/version?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2022-03-10 20:04:56,150 - 127.0.0.1 - - [10/Mar/2022 20:04:56] "GET /calc_update/version?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO 2022-03-10 20:04:56,169 - 127.0.0.1 - - [10/Mar/2022 20:04:56] "GET /calc_update/version?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO 2022-03-10 20:05:10,222 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-03-10 20:05:10,253 -  * Restarting with stat
+WARNING 2022-03-10 20:05:10,484 -  * Debugger is active!
+INFO 2022-03-10 20:05:10,485 -  * Debugger PIN: 141-764-638
+INFO 2022-03-10 20:05:12,517 - 127.0.0.1 - - [10/Mar/2022 20:05:12] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:06:23,637 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-03-10 20:06:23,665 -  * Restarting with stat
+WARNING 2022-03-10 20:06:23,847 -  * Debugger is active!
+INFO 2022-03-10 20:06:23,847 -  * Debugger PIN: 141-764-638
+INFO 2022-03-10 20:06:25,176 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-03-10 20:06:25,205 -  * Restarting with stat
+WARNING 2022-03-10 20:06:25,358 -  * Debugger is active!
+INFO 2022-03-10 20:06:25,358 -  * Debugger PIN: 141-764-638
+INFO 2022-03-10 20:06:28,998 -  * Detected change in '/home/matthew/Share/Code/2022_Big_Projects/AlderAutomationWebsite/main.py', reloading
+INFO 2022-03-10 20:06:29,031 -  * Restarting with stat
+WARNING 2022-03-10 20:06:29,207 -  * Debugger is active!
+INFO 2022-03-10 20:06:29,207 -  * Debugger PIN: 141-764-638
+INFO 2022-03-10 20:08:50,259 - 127.0.0.1 - - [10/Mar/2022 20:08:50] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:09:48,479 - 127.0.0.1 - - [10/Mar/2022 20:09:48] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:09:54,453 - 127.0.0.1 - - [10/Mar/2022 20:09:54] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:12:09,818 - 127.0.0.1 - - [10/Mar/2022 20:12:09] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:19:33,954 - 127.0.0.1 - - [10/Mar/2022 20:19:33] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:20:33,523 - 127.0.0.1 - - [10/Mar/2022 20:20:33] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:24:37,169 - 127.0.0.1 - - [10/Mar/2022 20:24:37] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:25:15,154 - 127.0.0.1 - - [10/Mar/2022 20:25:15] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:25:33,838 - 127.0.0.1 - - [10/Mar/2022 20:25:33] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:33:34,858 - 127.0.0.1 - - [10/Mar/2022 20:33:34] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:33:34,866 - 127.0.0.1 - - [10/Mar/2022 20:33:34] "[33mGET /calc_update/ HTTP/1.1[0m" 404 -
+INFO 2022-03-10 20:34:34,457 - 127.0.0.1 - - [10/Mar/2022 20:34:34] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:34:38,337 - 127.0.0.1 - - [10/Mar/2022 20:34:38] "[33mGET /calc_update/ HTTP/1.1[0m" 404 -
+INFO 2022-03-10 20:35:03,249 - 127.0.0.1 - - [10/Mar/2022 20:35:03] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 20:35:03,274 - 127.0.0.1 - - [10/Mar/2022 20:35:03] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 20:35:31,764 - 127.0.0.1 - - [10/Mar/2022 20:35:31] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:35:31,776 - 127.0.0.1 - - [10/Mar/2022 20:35:31] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 20:35:31,779 - 127.0.0.1 - - [10/Mar/2022 20:35:31] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 20:39:10,672 - 127.0.0.1 - - [10/Mar/2022 20:39:10] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:43:49,930 - 127.0.0.1 - - [10/Mar/2022 20:43:49] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:43:49,946 - 127.0.0.1 - - [10/Mar/2022 20:43:49] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 20:43:49,958 - 127.0.0.1 - - [10/Mar/2022 20:43:49] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 20:47:26,574 - 127.0.0.1 - - [10/Mar/2022 20:47:26] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 20:47:26,591 - 127.0.0.1 - - [10/Mar/2022 20:47:26] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 20:47:26,605 - 127.0.0.1 - - [10/Mar/2022 20:47:26] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 21:05:09,313 - 127.0.0.1 - - [10/Mar/2022 21:05:09] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:05:09,331 - 127.0.0.1 - - [10/Mar/2022 21:05:09] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 21:05:09,337 - 127.0.0.1 - - [10/Mar/2022 21:05:09] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 21:07:19,524 - 127.0.0.1 - - [10/Mar/2022 21:07:19] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:07:19,536 - 127.0.0.1 - - [10/Mar/2022 21:07:19] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 21:07:19,546 - 127.0.0.1 - - [10/Mar/2022 21:07:19] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 21:07:33,445 - 127.0.0.1 - - [10/Mar/2022 21:07:33] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:07:33,456 - 127.0.0.1 - - [10/Mar/2022 21:07:33] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 21:07:33,459 - 127.0.0.1 - - [10/Mar/2022 21:07:33] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 21:07:47,084 - 127.0.0.1 - - [10/Mar/2022 21:07:47] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:07:47,097 - 127.0.0.1 - - [10/Mar/2022 21:07:47] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 21:07:47,101 - 127.0.0.1 - - [10/Mar/2022 21:07:47] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 21:08:19,083 - 127.0.0.1 - - [10/Mar/2022 21:08:19] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:08:28,503 - 127.0.0.1 - - [10/Mar/2022 21:08:28] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:08:41,118 - 127.0.0.1 - - [10/Mar/2022 21:08:41] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:10:40,437 - 127.0.0.1 - - [10/Mar/2022 21:10:40] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:11:04,514 - 127.0.0.1 - - [10/Mar/2022 21:11:04] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:17:58,511 - 127.0.0.1 - - [10/Mar/2022 21:17:58] "[33mGET /calc_update/ HTTP/1.1[0m" 404 -
+INFO 2022-03-10 21:18:06,998 - 127.0.0.1 - - [10/Mar/2022 21:18:06] "[32mGET /calc_update HTTP/1.1[0m" 302 -
+INFO 2022-03-10 21:18:07,020 - 127.0.0.1 - - [10/Mar/2022 21:18:07] "GET /static/updates/calc/update.zip HTTP/1.1" 200 -
+INFO 2022-03-10 21:21:08,637 - 127.0.0.1 - - [10/Mar/2022 21:21:08] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:24:56,126 - 127.0.0.1 - - [10/Mar/2022 21:24:56] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:25:37,175 - 127.0.0.1 - - [10/Mar/2022 21:25:37] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:25:37,202 - 127.0.0.1 - - [10/Mar/2022 21:25:37] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:25:54,096 - 127.0.0.1 - - [10/Mar/2022 21:25:54] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:25:54,123 - 127.0.0.1 - - [10/Mar/2022 21:25:54] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:26:48,495 - 127.0.0.1 - - [10/Mar/2022 21:26:48] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:27:06,442 - 127.0.0.1 - - [10/Mar/2022 21:27:06] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:27:20,713 - 127.0.0.1 - - [10/Mar/2022 21:27:20] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:27:48,631 - 127.0.0.1 - - [10/Mar/2022 21:27:48] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:29:36,727 - 127.0.0.1 - - [10/Mar/2022 21:29:36] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:29:50,099 - 127.0.0.1 - - [10/Mar/2022 21:29:50] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:30:03,126 - 127.0.0.1 - - [10/Mar/2022 21:30:03] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:31:39,595 - 127.0.0.1 - - [10/Mar/2022 21:31:39] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:31:39,634 - 127.0.0.1 - - [10/Mar/2022 21:31:39] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:35:17,073 - 127.0.0.1 - - [10/Mar/2022 21:35:17] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:36:14,134 - 127.0.0.1 - - [10/Mar/2022 21:36:14] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:36:27,044 - 127.0.0.1 - - [10/Mar/2022 21:36:27] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:36:44,031 - 127.0.0.1 - - [10/Mar/2022 21:36:44] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:37:17,231 - 127.0.0.1 - - [10/Mar/2022 21:37:17] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:37:37,186 - 127.0.0.1 - - [10/Mar/2022 21:37:37] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:37:52,873 - 127.0.0.1 - - [10/Mar/2022 21:37:52] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:37:52,900 - 127.0.0.1 - - [10/Mar/2022 21:37:52] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:42:54,804 - 127.0.0.1 - - [10/Mar/2022 21:42:54] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:43:57,412 - 127.0.0.1 - - [10/Mar/2022 21:43:57] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:44:18,040 - 127.0.0.1 - - [10/Mar/2022 21:44:18] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:54:54,094 - 127.0.0.1 - - [10/Mar/2022 21:54:54] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:55:06,518 - 127.0.0.1 - - [10/Mar/2022 21:55:06] "GET /calc_update/version HTTP/1.1" 200 -
+INFO 2022-03-10 21:57:14,669 - 127.0.0.1 - - [10/Mar/2022 21:57:14] "GET /calc_update/version HTTP/1.1" 200 -
