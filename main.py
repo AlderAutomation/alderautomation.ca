@@ -59,7 +59,7 @@ def show_static_pdf():
 
 @app.route('/calc_update')
 def calc_update():
-    return redirect("../static/updates/calc/update.zip")
+    return redirect("../static/updates/calc/test_update.zip")
 
 
 @app.route('/calc_update/version')
