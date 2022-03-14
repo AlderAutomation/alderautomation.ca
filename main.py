@@ -67,5 +67,10 @@ def calc_update_version():
     return "0.01"
 
 
+@app.route('/support')
+def support_me():
+    return render_template('support.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
