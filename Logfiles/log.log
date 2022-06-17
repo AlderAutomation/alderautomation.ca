@@ -3454,3 +3454,15 @@ INFO 2022-06-16 20:12:51,175 - 127.0.0.1 - - [16/Jun/2022 20:12:51] "[36mGET /s
 INFO 2022-06-16 20:12:51,178 - 127.0.0.1 - - [16/Jun/2022 20:12:51] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
 INFO 2022-06-16 20:12:51,183 - 127.0.0.1 - - [16/Jun/2022 20:12:51] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
 INFO 2022-06-16 20:12:51,187 - 127.0.0.1 - - [16/Jun/2022 20:12:51] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,390 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "GET / HTTP/1.1" 200 -
+INFO 2022-06-16 20:23:27,426 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,640 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/pics/headericon.png HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,641 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/pics/Calc.png HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,642 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/pics/CameraToText.png HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,643 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/pics/TeaCozy.png HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,643 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/pics/GHIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,643 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/pics/EmailIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,645 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/pics/Twittericon.png HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,651 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/pics/FBIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,656 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/pics/YTIcon.png HTTP/1.1[0m" 304 -
+INFO 2022-06-16 20:23:27,662 - 127.0.0.1 - - [16/Jun/2022 20:23:27] "[36mGET /static/pics/LinkedinIcon.png HTTP/1.1[0m" 304 -
