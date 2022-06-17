@@ -12,7 +12,20 @@ header {
     background-color: var(--accent-calour);
     box-shadow: 0px 0px 0px 7px #888888;
     margin-bottom: 10px;
-    max-height: 105px;
+
+}
+
+header .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        display: none;
+        
+    }
 }
 
 .title {
@@ -73,7 +86,9 @@ header {
     border-radius: 5px;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
 }
+
 
 .skills {
     text-align: center;
@@ -125,6 +140,9 @@ header {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .links li {
