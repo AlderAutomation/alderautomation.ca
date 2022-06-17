@@ -30,6 +30,7 @@ header .row {
 
 .title {
     color: var(--main-colour);
+    padding: 1.5rem;
 } 
 
 .logo {
