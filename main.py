@@ -1,3 +1,4 @@
+from crypt import methods
 from flask import Flask, redirect, render_template, request, send_file
 import logging 
 import smtplib
