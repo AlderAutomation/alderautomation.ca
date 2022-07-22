@@ -35,7 +35,6 @@ def send_email(name, email, subject, message):
     sendto = 'info@alderautomation.ca'
     user = config.user
     pwd = config.password
-    content = 'Here is a new message from ' + name + ' at ' + email + '\n\n' + message
 
     try:
         msg = MIMEMultipart()
