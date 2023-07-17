@@ -12,8 +12,8 @@ from email.mime.base import MIMEBase
 
 app = Flask(__name__)
 
-LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
-logging.basicConfig(filename="./Logfiles/log.log", level=logging.DEBUG, format = LOG_FORMAT)
+LOG_FORMAT = '%(levelname)s %(asctime)s - %(message)s'
+logging.basicConfig(filename='./Logfiles/log.log', level=logging.DEBUG, format = LOG_FORMAT)
 logger = logging.getLogger()
 
 
@@ -38,16 +38,16 @@ def send_email(name, email, subject, message):
 
     try:
         msg = MIMEMultipart()
-        msg["From"] = sendfrom
-        msg["To"] = sendto
-        msg["Subject"] = subject
+        msg['From'] = sendfrom
+        msg['To'] = sendto
+        msg['Subject'] = subject
         msg.preamble = subject
         body = 'Here is a new message from ' + name + ' at ' + email + '\n\n' + message
         body = MIMEText(body) 
         msg.attach(body) 
 
 
-        server = smtplib.SMTP("mail.shaw.ca", 587)
+        server = smtplib.SMTP('mail.shaw.ca', 587)
         server.ehlo()
         server.starttls()
         server.ehlo()
@@ -55,32 +55,12 @@ def send_email(name, email, subject, message):
         server.send_message(msg)
     except Exception as e:
         logger.exception(e)
-        print("Error")
+        print('Error')
     finally:
         if server is not None:
             server.quit()
 
 
-@app.route('/mheltmanresume')
-def show_static_pdf():
-    with open('./static/docs/MHeltmanResume.pdf', 'rb') as static_file:
-        return redirect('../static/docs/MHeltmanResume.pdf')
-
-
-@app.route('/calc_update')
-def calc_update():
-    return redirect("../static/updates/calc/test_update.zip")
-
-
-@app.route('/calc_update/version')
-def calc_update_version():
-    return "0.01"
-
-
-@app.route('/support')
-def support_me():
-    return render_template('support.html')
-
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
+ 
