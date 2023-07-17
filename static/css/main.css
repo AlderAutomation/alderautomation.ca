@@ -1,20 +1,40 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0px;
     margin: 0px;
     font-family: 'Gill', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --main-colour: rgb(240, 240, 240);
-    --accent-calour: #4675B8;
+    --aa-colour: #4675B8;
     list-style: none;
 }
 
 /* Title / Nav Bar */
+.header-container{
+    position: relative;
+    margin-top: 2em;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 header-bar {
-    background-color: var(--accent-calour);
+    background-color: var(--aa-colour);
     margin: 2em;
     border-radius: 20px;
     display: flex;
     align-items: center;
+}
+
+header-bar h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .left-section {
@@ -32,16 +52,18 @@ header-bar {
 .right-section {
     margin-left: auto;
     color: var(--main-colour);
-    padding: 1.5rem;
+    padding: 1.75em;
 } 
 
 .right-section ul {
     list-style: none;
     display: flex;
+    font-size: 1.5em;
+    margin-bottom: 0px;
 }
 
 .right-section li {
-    margin-left: .5em;
+    margin-left: .75em;
 }
 
 .right-section a {
@@ -51,4 +73,32 @@ header-bar {
 
 .right-section a:hover{
     text-decoration: underline;
+}
+
+.top-flavour-text {
+    color: var(--main-colour);
+    position: absolute;
+    top: 40%;
+}
+
+.top-flavour-text h2 {
+    font-size: 4em;
+    font-weight: 700;
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+}
+
+.top-flavour-text .one {
+    position: relative;
+    left: 15%;
+}
+
+.top-flavour-text .two {
+    position: relative;
+    left: 25%;
+}
+
+.top-flavour-text .three {
+    position: relative;
+    left: 35%;
 }
