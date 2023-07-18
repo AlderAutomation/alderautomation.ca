@@ -5,6 +5,7 @@
     font-family: 'Gill', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --main-colour: rgb(240, 240, 240);
     --aa-colour: #4675B8;
+    --aa-colour-dark: #1c2f4a;
     list-style: none;
 }
 
@@ -202,6 +203,50 @@ main {
     text-align: center;
 }
 
+/* Footer */
+
+footer {
+    border-top: 1px black solid;
+    text-align: center;
+    background-color: var(--aa-colour-dark);
+    color: var(--main-colour);
+}
+
+footer li {
+    padding: 1.25em;
+}
+
+footer a {
+    color: var(--main-colour);
+    text-decoration: none;
+}
+
+footer a::hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    padding-bottom: 1em;
+}
+
+.copyright p {
+    padding-top: .75em;
+}
+
+.internal-links-container ul {
+    display: flex;
+    justify-content:center;
+}
+
+.social-links-container ul {
+    display: flex;
+    justify-content:center;
+    font-size: 2em;
+}
+
+
+
+
 
 /* Mobile sizing */
 @media screen and (max-width: 1000px) {
@@ -240,6 +285,11 @@ main {
 
     .right-section {
         margin-left: 0px;
+    }
+
+    .right-section li {
+        margin-left: 0px;
+        margin-right: 0.75em;
     }
 
     /* Services Section */
