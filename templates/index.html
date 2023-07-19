@@ -14,9 +14,9 @@
     </head>
 <body>
     <script src="https://embed.small.chat/T025D8U6F2AC041U4497RV.js" async></script>
+    <!-- Header -->
     <header>  
         <img src="../static/pics/header-bg-1.jpeg" alt="stylized pic of computer screens" class="background-image">
-        
         <!-- Title / Nav Bar -->
         <div class="header-container">
             <header-bar>
@@ -25,24 +25,20 @@
                     <h1>ALDERAUTOMATION</h1>
                 </div>
                 <div class="right-section">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <!-- <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li> -->
-                    </ul>
+                    {% include 'nav-items.html' %}
                 </div>
             </header-bar>
         </div>
-
+    
         <div class="top-flavour-text">
             <h2 class="one">Custom Software Solutions</h2>
             <h2 class="two">Web Design</h2>
             <h2 class="three">IT Services</h2>
         </div>
-    </header>
-
-    <!-- Services -->
-    <main>
+        </header>
+        
+        <!-- Services -->
+        <main>
         <div class="services_container">
             <div class="row">
                 <div class="card">
@@ -83,26 +79,21 @@
                         </div>
                     </div>
                 </div>
-
+        
             </div>
-    </main>
-
-    <!-- Customers -->
-    <div class="customer-container">
+        </main>
+        
+        <!-- Customers -->
+        <div class="customer-container">
         <ul>
             <li><a href="http://www.hillsideslopemowing.ca" target="_blank"><img src="../static/pics/Hillside-transparent.png" alt="Hillside logo"></a></li>
             <li><a href="https://hytecwater.com" target="_blank"><img src="../static/pics/header-logo.png" alt="hytec logo"></a></li>
         </ul>
-    </div>
-
+        </div>
     <!-- Footer -->
     <footer>
         <div class="internal-links-container">
-            <ul>
-                <li><a href="">Home</a></li>
-                <!-- <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li> -->
-            </ul>
+            {%include 'nav-items.html'%}
         </div>
         <div class="social-links-container">
             <ul>
@@ -114,7 +105,7 @@
             </ul>
         </div>
         <div class="copyright">
-            <p>Site hand crafted by Matthew at AlderAutomation </p>
+            <p>This site hand crafted by Matthew at AlderAutomation </p>
             <p>Copyright 2023 AlderAutomation</p>
         </div>
     </footer>
