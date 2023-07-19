@@ -127,6 +127,7 @@ main {
 
 .row {
     display: flex;
+    justify-content: space-evenly;
     width: 100%;
 }
 
@@ -201,6 +202,23 @@ main {
 .card_description {
     margin: 0 0 16px;
     text-align: center;
+}
+
+/* Customers */
+
+.customer-container {
+    background-color: var(--aa-colour);
+}
+
+.customer-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.customer-container img {
+    width: 250px;
+
 }
 
 /* Footer */
