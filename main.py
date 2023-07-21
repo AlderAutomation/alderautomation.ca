@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 import logging 
-import smtplib, config
 
 app = Flask(__name__)
 

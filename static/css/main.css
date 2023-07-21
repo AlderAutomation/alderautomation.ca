@@ -258,7 +258,7 @@ footer a::hover {
 
 .social-links-container ul {
     display: flex;
-    justify-content:center;
+    justify-content: space-evenly;
     font-size: 2em;
 }
 
@@ -327,7 +327,7 @@ footer a::hover {
 
 @media screen and (max-width: 650px) {
     .top-flavour-text h2 {
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: 500;
     }
     
@@ -342,6 +342,16 @@ footer a::hover {
     .top-flavour-text .three {
         left: 20%;
     }
+
+    .customer-container img {
+        width: 100px;
+    }
+
+.social-links-container ul {
+    justify-content:space-evenly;
+    font-size: 1.1em;
+}
+
 }
 
 
