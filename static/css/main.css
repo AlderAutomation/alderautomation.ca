@@ -105,7 +105,7 @@ header-bar h1 {
     left: 35%;
 }
 
-/* Services Sectrion */
+/* Services Section */
 main {
     width: 100%;
     background-color: var(--aa-colour);
@@ -220,6 +220,21 @@ main {
     width: 250px;
 
 }
+
+/* Contact Page  */
+.email_container {
+    background-color: var(--main-colour);
+    border: black 1px solid;
+    margin: 2em;
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
+    padding: 2em;
+}
+
+
+
 
 /* Footer */
 
