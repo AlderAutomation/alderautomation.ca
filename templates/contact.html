@@ -15,10 +15,11 @@
 <body>
     <script src="https://embed.small.chat/T025D8U6F2AC041U4497RV.js" async></script>
     <!-- Header -->
+    <!-- <img src="../static/pics/Contact.jpeg" alt="stylized pic of computer screens" class="background-image"> -->
+    
     <header>  
-        <img src="../static/pics/header-bg-1.jpeg" alt="stylized pic of computer screens" class="background-image">
         <!-- Title / Nav Bar -->
-        <div class="header-container">
+        <div class="header-container contact-page">
             <header-bar>
                 <div class="left-section">
                     <img src="../static/pics/headericon.png" alt="AlderAutomation Logo" width="90px">
@@ -29,6 +30,23 @@
                 </div>
             </header-bar>
         </div>
+    </header>
+
+    <!-- Email Form -->
+    <div class="email_container">
+        <p>The best way of contacting us is through email. Feel free to fill out this convenient form. Please be as detailed as possible so that we can get as accurate of a response as possible. We can also be reached at the chat button on the bottom right of the webpage. Or by any of the social media links in the Footer of the page. Thank you so much for coming by. </p><br>
+        <form method="POST" action="/contact">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name"> <br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message: </label><br>
+            <textarea type="text" id="message" name="message" rows="9"></textarea><br><br>
+            <input type="submit" id="submit" value="Send" class="send-btn">
+        </form><br>
+        
+    </div>
+
     
 
         
