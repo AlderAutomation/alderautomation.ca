@@ -9,11 +9,20 @@
     list-style: none;
 }
 
+body {
+    background-color: var(--aa-colour);
+}
+
+
 /* Title / Nav Bar */
 .header-container{
     position: relative;
     margin-top: 2em;
     height: 980px;
+}
+
+.contact-page {
+    height: auto;
 }
 
 .background-image {
@@ -32,6 +41,8 @@ header-bar {
     border-radius: 20px;
     display: flex;
     align-items: center;
+    border: 1px black solid;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
 }
 
 header-bar h1 {
@@ -227,13 +238,30 @@ main {
     border: black 1px solid;
     margin: 2em;
     border-radius: 20px;
-    position: absolute;
-    top: 150px;
+    position: relative;
+    /* top: 150px; */
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
     padding: 2em;
 }
 
+form {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+textarea {
+    width: 100%;
+}
+
+.send-btn {
+    padding: .75em 2em;
+    border-radius: 25px;
+    background-color: var(--aa-colour);
+    color: var(--main-colour);
+    font-size: larger;
+    font-weight: 700;
+}
 
 
 /* Footer */
