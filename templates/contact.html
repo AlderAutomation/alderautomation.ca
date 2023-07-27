@@ -16,18 +16,9 @@
     <script src="https://embed.small.chat/T025D8U6F2AC041U4497RV.js" async></script>
     <!-- Header -->
     
-    <header>  
-        <!-- Title / Nav Bar -->
+    <header>
         <div class="header-container contact-page">
-            <header-bar>
-                <div class="left-section">
-                    <a href="{{ url_for('home') }}"><img src="../static/pics/headericon.png" alt="AlderAutomation Logo" width="90px"></a>
-                    <h1>ALDERAUTOMATION</h1>
-                </div>
-                <div class="right-section">
-                    {% include 'nav-items.html' %}
-                </div>
-            </header-bar>
+            {% include 'header.html' %}
         </div>
     </header>
 

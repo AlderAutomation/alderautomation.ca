@@ -1,0 +1,10 @@
+        <!-- Title / Nav Bar -->
+        <header-bar>
+            <div class="left-section">
+                <a href="{{ url_for('home') }}"><img src="../static/pics/headericon.png" alt="AlderAutomation Logo" width="90px"></a>
+                <h1>ALDERAUTOMATION</h1>
+            </div>
+            <div class="right-section">
+                {% include 'nav-items.html' %}
+            </div>
+        </header-bar>

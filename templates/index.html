@@ -17,17 +17,8 @@
     <!-- Header -->
     <header>  
         <img src="../static/pics/header-bg-1.jpeg" alt="stylized pic of computer screens" class="background-image">
-        <!-- Title / Nav Bar -->
         <div class="header-container">
-            <header-bar>
-                <div class="left-section">
-                    <a href="{{ url_for('home') }}"><img src="../static/pics/headericon.png" alt="AlderAutomation Logo" width="90px"></a>
-                    <h1>ALDERAUTOMATION</h1>
-                </div>
-                <div class="right-section">
-                    {% include 'nav-items.html' %}
-                </div>
-            </header-bar>
+            {% include 'header.html' %}
         </div>
     
         <div class="top-flavour-text">
@@ -35,7 +26,7 @@
             <h2 class="two">Web Design</h2>
             <h2 class="three">IT Services</h2>
         </div>
-        </header>
+    </header>
         
         <!-- Services -->
         <main>
