@@ -13,6 +13,9 @@ body {
     background-color: var(--aa-colour);
 }
 
+.content {
+    min-height: calc(100vh - 280px);
+}
 
 /* Title / Nav Bar */
 .header-container{
@@ -21,7 +24,7 @@ body {
     height: 980px;
 }
 
-.contact-page {
+.non-home-page {
     height: auto;
 }
 
@@ -313,6 +316,7 @@ footer {
     text-align: center;
     background-color: var(--aa-colour-dark);
     color: var(--main-colour);
+    height: 250px;
 }
 
 footer li {
