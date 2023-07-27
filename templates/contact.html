@@ -34,7 +34,7 @@
     <!-- Email Form -->
     <div class="email_container">
         <p>"Feel free to reach out to us using the form below, or using chat button at the bottom. Thank you so much for stopping by."</p><br>
-        <form method="POST" action="/contact">
+        <form method="POST" action="#popup">
             <label for="name">Name: </label>
             <input type="text" id="name" name="name" required> <br><br>
             <label for="email">Email: </label>
@@ -43,6 +43,14 @@
             <textarea type="text" id="message" name="message" rows="8" required></textarea><br><br>
             <input type="submit" id="submit" value="Send" class="send-btn">
         </form><br>
+
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <h4>Thank you</h4>
+                <p>Your email has been submitted and you should receive a response shortly.</p>
+                <a href="{{ url_for('home')}}">Back Home</a>
+            </div>
+        </div>
         
     </div>
 
