@@ -232,7 +232,11 @@ main {
 
 .customer-container img {
     width: 250px;
+}
 
+.customer-container h1 {
+    text-align: center;
+    margin: .75em;
 }
 
 /* Contact Page  */
