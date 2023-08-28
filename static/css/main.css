@@ -294,6 +294,26 @@ main {
     color: #888;
 }
 
+/* About us Page */
+.about-us-container {
+    background-color: var(--main-colour);
+    border: black 1px solid;
+    margin: 2em;
+    border-radius: 20px;
+    position: relative;
+    /* top: 150px; */
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
+    padding: 2em;
+}
+
+.about-us-container li {
+    list-style: circle;
+    margin-left: 2em;
+}
+
+
+
+
 /* Contact Page  */
 .email_container {
     background-color: var(--main-colour);
