@@ -234,33 +234,57 @@ main {
     width: 250px;
 }
 
-.customer-container h1 {
+.customer-container h2 {
     text-align: center;
     margin: .75em;
 }
 
 /* Testimonials */
+.testimonials h2 {
+    text-align: center;
+    margin: .75em;
+}
+
 .testim-carousel {
     display: flex;
     overflow: hidden;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .prev-button, .next-button {
+    width: 3em;
+    height: 3em;
+    font-weight: 900;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    margin: 2em;
+}
+
+.prev-button:hover, .next-button:hover {
+    background-color: rgba(28, 47, 74, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
   
 .testim-card {
-    flex: 0 0 80%;
+    width: 90%;
     background-color: #f5f5f5;
-    border-radius: 10px;
+    border: 1px black solid;
+    border-radius: 8px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
     padding: 20px;
-    margin-right: 20px;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 5s ease-in-out;
 }
   
 .show {
     opacity: 1;
 }
 
-  .testim-text {
+.testim-text {
     font-size: 16px;
     margin-bottom: 10px;
 }

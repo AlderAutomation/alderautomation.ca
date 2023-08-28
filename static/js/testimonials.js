@@ -12,9 +12,10 @@ async function loadTestimonials() {
 
 loadTestimonials().then(testimonials => {
   document.querySelector(".testim-text").innerHTML = testimonials[currenttestimIndex].text;
+  document.querySelector(".testim-author").innerHTML = testimonials[currenttestimIndex].author;
 
   prevButton.addEventListener('click', () => {
-      currenttestimIndex = (currenttestimIndex - 1 + testimonials.length) % textList.length;
+      currenttestimIndex = (currenttestimIndex - 1 + testimonials.length) % testimonials.length;
       document.querySelector(".testim-text").innerHTML = testimonials[currenttestimIndex].text;
       document.querySelector(".testim-author").innerHTML = testimonials[currenttestimIndex].author;
   });
