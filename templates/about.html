@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="We do Software, Web, and Mobile Development as well as Search Engine Optimization, and IT Services.">
-        <link rel ="stylesheet" href="{{ url_for('static', filename='css/main.css' )}}">
-        <link rel="shortcut icon" href="../static/pics/favicon.png" type="image/x-icon">
-        <script src="https://kit.fontawesome.com/ae32aee0a1.js" crossorigin="anonymous"></script>        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
-        <title>AlderAutomation - Software Development</title>
-    </head>
+    <!-- Head -->
+    {% include 'head.html' %}
     <body>
         <div class="content">
             <script src="https://embed.small.chat/T025D8U6F2AC041U4497RV.js" async></script>
@@ -51,7 +41,7 @@
         {% include 'footer.html' %}
     </body>
 
-
     <!-- Scripts -->
     <script type="text/javascript" src="{{ url_for('static', filename='js/testimonials.js') }}"></script>
+
 </html>
