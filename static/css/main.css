@@ -127,7 +127,7 @@ main {
     padding-bottom: 4em;
 }
 
-.services_container {
+.services-container {
     position: relative;
     top: 2em;
     border: 1px black solid;
@@ -214,7 +214,7 @@ main {
     text-align: center;
 }
 
-.card_description {
+.card-description {
     margin: 0 0 16px;
     text-align: center;
 }
@@ -547,7 +547,7 @@ footer a::hover {
 
 
     /*  Services */
-    .services_container {
+    .services-container {
         top: .25em;
         margin-left: .25em;
         margin-right: .25em;
