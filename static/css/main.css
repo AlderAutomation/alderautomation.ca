@@ -429,7 +429,27 @@ footer a::hover {
     font-size: 2em;
 }
 
+/* Count Down Promos */
+.countdown-container {
+    background-color: #304858;
+    padding: .5em;
+    width: 100%;
+    text-align: center;
+    color: var(--main-colour);
+    text-transform: uppercase;
+}
 
+.countdown-container a {
+    color: var(--main-colour);
+}
+
+.countdown-container img {
+    vertical-align: middle;
+}
+
+.time {
+    color: rgb(10, 238, 10);
+}
 
 
 
