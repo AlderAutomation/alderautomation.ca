@@ -1,78 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="We do Software, Web, and Mobile Development as well as Search Engine Optimization, and IT Services.">
-        <link rel ="stylesheet" href="{{ url_for('static', filename='css/main.css' )}}">
-        <link rel="shortcut icon" href="../static/pics/favicon.png" type="image/x-icon">
-        <script src="https://kit.fontawesome.com/ae32aee0a1.js" crossorigin="anonymous"></script>        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
-        <title>AlderAutomation - Software Development</title>
-    </head>
-<body>
-    <script src="https://embed.small.chat/T025D8U6F2AC041U4497RV.js" async></script>
-    <!-- Header -->
-    
-    <header>  
-        <!-- Title / Nav Bar -->
-        <div class="header-container contact-page">
-            <header-bar>
-                <div class="left-section">
-                    <a href="{{ url_for('home') }}"><img src="../static/pics/headericon.png" alt="AlderAutomation Logo" width="90px"></a>
-                    <h1>ALDERAUTOMATION</h1>
+    <!-- Head -->
+    {% include 'head.html' %}
+    <body>
+        <div class="content">
+            <script src="https://embed.small.chat/T025D8U6F2AC041U4497RV.js" async></script>
+            <!-- Header -->
+            
+            <header>
+                <div class="header-container non-home-page">
+                    {% include 'header.html' %}
                 </div>
-                <div class="right-section">
-                    {% include 'nav-items.html' %}
+            </header>
+
+            <!-- Email Form -->
+            <div class="email_container">
+                <p>"Feel free to reach out to us using the form below, or using chat button at the bottom. Thank you so much for stopping by."</p><br>
+                <form method="POST" action="#popup">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required> <br><br>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Message: </label><br>
+                    <textarea type="text" id="message" name="message" rows="8" required></textarea><br><br>
+                    <input type="submit" id="submit" value="Send" class="send-btn">
+                </form><br>
+
+                <div class="popup" id="popup">
+                    <div class="popup-content">
+                        <h4>Thank you</h4>
+                        <p>Your email has been submitted and you should receive a response shortly.</p>
+                        <a href="{{ url_for('home')}}">Back Home</a>
+                    </div>
                 </div>
-            </header-bar>
-        </div>
-    </header>
-
-    <!-- Email Form -->
-    <div class="email_container">
-        <p>"Feel free to reach out to us using the form below, or using chat button at the bottom. Thank you so much for stopping by."</p><br>
-        <form method="POST" action="#popup">
-            <label for="name">Name: </label>
-            <input type="text" id="name" name="name" required> <br><br>
-            <label for="email">Email: </label>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="message">Message: </label><br>
-            <textarea type="text" id="message" name="message" rows="8" required></textarea><br><br>
-            <input type="submit" id="submit" value="Send" class="send-btn">
-        </form><br>
-
-        <div class="popup" id="popup">
-            <div class="popup-content">
-                <h4>Thank you</h4>
-                <p>Your email has been submitted and you should receive a response shortly.</p>
-                <a href="{{ url_for('home')}}">Back Home</a>
             </div>
-        </div>
+        </div> <!-- end content -->
         
-    </div>
-
-    
-
-        
-    <!-- Footer -->
-    <footer>
-        <div class="internal-links-container">
-            {%include 'nav-items.html'%}
-        </div>
-        <div class="social-links-container">
-            <ul>
-                <li><a href="https://www.facebook.com/AlderAutomation" target="_blank"><i class="fa-brands fa-facebook" "></i></a></li>
-                <li><a href="https://twitter.com/AlderAutomation" target="_blank"><i class="fa-brands fa-twitter" "></i></a></li>
-                <li><a href="https://www.instagram.com/alder_automation/" target="_blank"><i class="fa-brands fa-instagram" "></i></a></li>
-                <li><a href="https://www.linkedin.com/company/alderautomation/?viewAsMember=true" target="_blank"><i class="fa-brands fa-linkedin" "></i></a></li>
-                <li><a href="https://github.com/AlderAutomation?tab=repositories" target="_blank"><i class="fa-brands fa-github" "></i></a></li>
-            </ul>
-        </div>
-        <div class="copyright">
-            <p>This site hand crafted by Matthew at AlderAutomation </p>
-            <p>Copyright 2023 AlderAutomation</p>
-        </div>
-    </footer>
+        <!-- Footer -->
+        {% include 'footer.html' %}
+    </body>
+</html>

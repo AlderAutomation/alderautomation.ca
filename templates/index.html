@@ -1,111 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Software & Mobile Dev, IT Services, & Database Management">
-        <link rel ="stylesheet" href="{{ url_for('static', filename='css/main.css' )}}">
-        <link rel="shortcut icon" href="../static/pics/favicon.png" type="image/x-icon">
-        <script src="https://kit.fontawesome.com/ae32aee0a1.js" crossorigin="anonymous"></script>        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
-        <title>AlderAutomation - Software Development</title>
-    </head>
-<body>
-    <script src="https://embed.small.chat/T025D8U6F2AC041U4497RV.js" async></script>
-    <!-- Header -->
-    <header>  
-        <img src="../static/pics/header-bg-1.jpeg" alt="stylized pic of computer screens" class="background-image">
-        <!-- Title / Nav Bar -->
-        <div class="header-container">
-            <header-bar>
-                <div class="left-section">
-                    <a href="{{ url_for('home') }}"><img src="../static/pics/headericon.png" alt="AlderAutomation Logo" width="90px"></a>
-                    <h1>ALDERAUTOMATION</h1>
+    <!-- Head -->
+    {% include 'head.html' %}
+    <body>
+        <div class="content">
+            <script src="https://embed.small.chat/T025D8U6F2AC041U4497RV.js" async></script>
+            <!-- Header -->
+            <header>  
+                <img src="../static/pics/index-header-bg.jpeg" alt="stylized pic of computer screens" class="background-image">
+                <div class="header-container">
+                    {% include 'header.html' %}
                 </div>
-                <div class="right-section">
-                    {% include 'nav-items.html' %}
+            
+                <div class="top-flavour-text">
+                    <h2 class="one">Custom Software</h2>
+                    <h2 class="two">Web Design</h2>
+                    <h2 class="three">IT Services</h2>
                 </div>
-            </header-bar>
+            </header>
+                
+                <!-- Services -->
+            <main>
+                <div class="services-container">
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../static/pics/CustomSoftware.jpeg" alt="" class="card-image-img">
+                                <div class="card-content">
+                                    <h3 class="card-title">Custom Software Solutions</h3>
+                                    <p class="card-description">Our tailored software solutions automate tasks, streamline processes, and eliminate inefficiencies. Let us revolutionize the way you work. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../static/pics/AndroidDev.jpeg" alt="" class="card-image-img">
+                                <div class="card-content">
+                                    <h3 class="card-title">Android Development</h3>
+                                    <p class="card-description">Tap into the vast Android user base with our high-quality, user-friendly app development. We create engaging Android experiences that make a lasting impact. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../static/pics/TempITServices.jpeg" alt="" class="card-image-img">
+                                <div class="card-content">
+                                    <h3 class="card-title">IT Services</h3>
+                                    <p class="card-description">Our IT infrastructure services maximize performance and efficiency. We assess your current infrastructure, identify improvements, and implement tailored solutions to support your organization's success. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../static/pics/dbmgmnt.jpeg" alt="" class="card-image-img">
+                                <div class="card-content">
+                                    <h3 class="card-title">Database Management</h3>
+                                    <p class="card-description">Our comprehensive database management services ensure secure, efficient, and scalable databases. Experience streamlined operations, improved data accessibility, and actionable insights for informed decision-making. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+                
+            <!-- Customers -->
+            <div class="customer-container">
+                <h2 id="companies">Companies We Have Worked With</h2>
+                <ul>
+                    <li><a href="http://www.hillsideslopemowing.ca" target="_blank"><img src="../static/pics/Hillside-transparent.png" alt="Hillside logo"></a></li>
+                    <li><a href="https://hytecwater.com" target="_blank"><img src="../static/pics/header-logo.png" alt="hytec logo"></a></li>
+                </ul>
+            </div>
+
+            <!-- Testimonials -->
+            {%include 'testimonials.html'%}
         </div>
+
+
+        <!-- Footer -->
+        {% include 'footer.html' %}
+    </body>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/testimonials.js') }}"></script>
     
-        <div class="top-flavour-text">
-            <h2 class="one">Custom Software</h2>
-            <h2 class="two">Web Design</h2>
-            <h2 class="three">IT Services</h2>
-        </div>
-        </header>
-        
-        <!-- Services -->
-        <main>
-        <div class="services_container">
-            <div class="row">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../static/pics/CustomSoftware.jpeg" alt="" class="card-image-img">
-                        <div class="card-content">
-                            <h3 class="card-title">Custom Software Solutions</h3>
-                            <p class="card_description">Our tailored software solutions automate tasks, streamline processes, and eliminate inefficiencies. Let us revolutionize the way you work. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../static/pics/AndroidDev.jpeg" alt="" class="card-image-img">
-                        <div class="card-content">
-                            <h3 class="card-title">Android Development</h3>
-                            <p class="card_description">Tap into the vast Android user base with our high-quality, user-friendly app development. We create engaging Android experiences that make a lasting impact. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../static/pics/TempITServices.jpeg" alt="" class="card-image-img">
-                        <div class="card-content">
-                            <h3 class="card-title">IT Services</h3>
-                            <p class="card_description">Our IT infrastructure services maximize performance and efficiency. We assess your current infrastructure, identify improvements, and implement tailored solutions to support your organization's success. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../static/pics/dbmgmnt.jpeg" alt="" class="card-image-img">
-                        <div class="card-content">
-                            <h3 class="card-title">Database Management</h3>
-                            <p class="card_description">Our comprehensive database management services ensure secure, efficient, and scalable databases. Experience streamlined operations, improved data accessibility, and actionable insights for informed decision-making. </p>
-                        </div>
-                    </div>
-                </div>
-        
-            </div>
-        </main>
-        
-        <!-- Customers -->
-        <div class="customer-container">
-        <ul>
-            <li><a href="http://www.hillsideslopemowing.ca" target="_blank"><img src="../static/pics/Hillside-transparent.png" alt="Hillside logo"></a></li>
-            <li><a href="https://hytecwater.com" target="_blank"><img src="../static/pics/header-logo.png" alt="hytec logo"></a></li>
-        </ul>
-        </div>
-    <!-- Footer -->
-    <footer>
-        <div class="internal-links-container">
-            {%include 'nav-items.html'%}
-        </div>
-        <div class="social-links-container">
-            <ul>
-                <li><a href="https://www.facebook.com/AlderAutomation" target="_blank"><i class="fa-brands fa-facebook" "></i></a></li>
-                <li><a href="https://twitter.com/AlderAutomation" target="_blank"><i class="fa-brands fa-twitter" "></i></a></li>
-                <li><a href="https://www.instagram.com/alder_automation/" target="_blank"><i class="fa-brands fa-instagram" "></i></a></li>
-                <li><a href="https://www.linkedin.com/company/alderautomation/?viewAsMember=true" target="_blank"><i class="fa-brands fa-linkedin" "></i></a></li>
-                <li><a href="https://github.com/AlderAutomation?tab=repositories" target="_blank"><i class="fa-brands fa-github" "></i></a></li>
-            </ul>
-        </div>
-        <div class="copyright">
-            <p>This site hand crafted by Matthew at AlderAutomation </p>
-            <p>Copyright 2023 AlderAutomation</p>
-        </div>
-    </footer>
+</html>
