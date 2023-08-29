@@ -325,6 +325,13 @@ main {
     padding: 2em;
 }
 
+
+.email_container p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 form {
     width: 75%;
     margin-left: auto;
@@ -510,6 +517,33 @@ footer a::hover {
         margin-left: auto;
         width: 90%;
     }
+
+    /* About */
+    .about-us-container {
+        margin: 0.75em;
+    }
+
+
+    /* contact  */
+    .email_container {
+        margin: 0.75em;
+    }
+
+    .email_container p {
+        width: 100%;
+    }
+    
+    form {
+        width: 100%;
+    }
+
+    /* testimonials */
+    .prev-button, .next-button {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
 }
 
 @media screen and (max-width: 650px) {
