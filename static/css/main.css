@@ -40,7 +40,7 @@ body {
 }
 
 header-bar {
-    background-color: var(--aa-colour-50light);
+    background-color: var(--aa-colour);
     margin: 2em;
     border-radius: 20px;
     display: flex;
