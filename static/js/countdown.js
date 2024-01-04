@@ -1,5 +1,5 @@
 function updateTimer() {
-    const promo_date = new Date(2023, 9, 20, 12, 0, 0);
+    const promo_date = new Date(2024, 4, 26, 12, 0, 0);
     const now = new Date();
     const timeDifference = promo_date - now;
 
